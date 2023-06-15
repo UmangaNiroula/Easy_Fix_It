@@ -77,7 +77,7 @@ public class HomePage extends AppCompatActivity {
                 break;
 
             case R.id.notify:
-                Toast.makeText(this, "Notify Click", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Notify Clickss", Toast.LENGTH_SHORT).show();
                 break;
 
             default:
