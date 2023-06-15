@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.12200239808153478" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.215" />
+        <entry key="app/src/main/res/drawable/bookmark_nav.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/car.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/edittextborder.xml" value="0.215" />
+        <entry key="app/src/main/res/drawable/home_nav.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2035" />
+        <entry key="app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.215" />
+        <entry key="app/src/main/res/drawable/ic_baseline_group_add_24.xml" value="0.2035" />
+        <entry key="app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.199" />
+        <entry key="app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.199" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.107" />
+        <entry key="app/src/main/res/drawable/location.xml" value="0.199" />
+        <entry key="app/src/main/res/drawable/networking.xml" value="0.199" />
+        <entry key="app/src/main/res/drawable/notifications.xml" value="0.199" />
+        <entry key="app/src/main/res/drawable/pinbackgroundbox.xml" value="0.215" />
+        <entry key="app/src/main/res/drawable/product_nav.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/profile_nav.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/search.xml" value="0.199" />
+        <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/activity_login_phone_number_entry.xml" value="0.28030090332031254" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.27136516466818217" />
+        <entry key="app/src/main/res/layout/activity_main_page.xml" value="0.2986262252964207" />
+        <entry key="app/src/main/res/layout/activity_otp_code.xml" value="0.14051094890510948" />
+        <entry key="app/src/main/res/layout/fragment_booking.xml" value="0.15841064453125" />
+        <entry key="app/src/main/res/layout/fragment_current.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/fragment_history.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.19709277469003847" />
+        <entry key="app/src/main/res/layout/fragment_products.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.3473052978515625" />
+        <entry key="app/src/main/res/layout/logosetter.xml" value="0.19623770842240273" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/menu/home_menu.xml" value="0.45994162687943396" />
+        <entry key="app/src/main/res/xml/edittextborder.xml" value="0.24010416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
