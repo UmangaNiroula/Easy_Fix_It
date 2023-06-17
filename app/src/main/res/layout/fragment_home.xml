@@ -328,7 +328,7 @@
                                 android:id="@+id/imageView112"
                                 android:layout_width="match_parent"
                                 android:layout_height="24dp"
-                                app:srcCompat="@drawable/ac" />
+                                app:srcCompat="@drawable/ic_baseline_smart_button_24" />
 
                             <TextView
                                 android:id="@+id/textView116"

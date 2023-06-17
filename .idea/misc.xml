@@ -6,6 +6,7 @@
         <entry key="../../../../layout/custom_preview.xml" value="0.12200239808153478" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.215" />
         <entry key="app/src/main/res/drawable/bookmark_nav.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/bottom_sheet_radius.xml" value="0.2035" />
         <entry key="app/src/main/res/drawable/car.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/edittextborder.xml" value="0.215" />
         <entry key="app/src/main/res/drawable/home_nav.xml" value="0.1" />
@@ -22,8 +23,9 @@
         <entry key="app/src/main/res/drawable/product_nav.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/profile_nav.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/search.xml" value="0.199" />
+        <entry key="app/src/main/res/layout/activity_bottom_sub_option.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.2543822146216332" />
-        <entry key="app/src/main/res/layout/activity_login_phone_number_entry.xml" value="0.28030090332031254" />
+        <entry key="app/src/main/res/layout/activity_login_phone_number_entry.xml" value="0.14645996093750002" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.27136516466818217" />
         <entry key="app/src/main/res/layout/activity_main_page.xml" value="0.2986262252964207" />
         <entry key="app/src/main/res/layout/activity_otp_code.xml" value="0.14051094890510948" />
@@ -33,7 +35,27 @@
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.19709277469003847" />
         <entry key="app/src/main/res/layout/fragment_products.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.3473052978515625" />
+        <entry key="app/src/main/res/layout/fragment_service_option.xml" value="0.24783935546875002" />
+        <entry key="app/src/main/res/layout/fragment_service_option_appliances.xml" value="0.19709277469003847" />
+        <entry key="app/src/main/res/layout/fragment_service_option_car.xml" value="0.19709277469003847" />
+        <entry key="app/src/main/res/layout/fragment_service_option_carpentry.xml" value="0.19709277469003847" />
+        <entry key="app/src/main/res/layout/fragment_service_option_celebration.xml" value="0.19709277469003847" />
+        <entry key="app/src/main/res/layout/fragment_service_option_cleaning.xml" value="0.19709277469003847" />
+        <entry key="app/src/main/res/layout/fragment_service_option_computer.xml" value="0.19709277469003847" />
+        <entry key="app/src/main/res/layout/fragment_service_option_construction.xml" value="0.19709277469003847" />
+        <entry key="app/src/main/res/layout/fragment_service_option_gardening.xml" value="0.19709277469003847" />
+        <entry key="app/src/main/res/layout/fragment_service_option_health.xml" value="0.19709277469003847" />
+        <entry key="app/src/main/res/layout/fragment_service_option_heater.xml" value="0.19709277469003847" />
+        <entry key="app/src/main/res/layout/fragment_service_option_home.xml" value="0.317864990234375" />
+        <entry key="app/src/main/res/layout/fragment_service_option_laundry.xml" value="0.19709277469003847" />
+        <entry key="app/src/main/res/layout/fragment_service_option_mover.xml" value="0.19709277469003847" />
+        <entry key="app/src/main/res/layout/fragment_service_option_painting.xml" value="0.19709277469003847" />
+        <entry key="app/src/main/res/layout/fragment_service_option_salon.xml" value="0.19709277469003847" />
+        <entry key="app/src/main/res/layout/fragment_service_option_vet.xml" value="0.19709277469003847" />
+        <entry key="app/src/main/res/layout/item_service_view.xml" value="0.19623770842240273" />
         <entry key="app/src/main/res/layout/logosetter.xml" value="0.19623770842240273" />
+        <entry key="app/src/main/res/layout/service_option_detail.xml" value="0.19623770842240273" />
+        <entry key="app/src/main/res/layout/sub_option_popup.xml" value="0.2535271483539974" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/menu/home_menu.xml" value="0.45994162687943396" />
         <entry key="app/src/main/res/xml/edittextborder.xml" value="0.24010416666666667" />

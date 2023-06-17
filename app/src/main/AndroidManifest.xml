@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.easyfixit">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -16,9 +16,12 @@
         android:theme="@style/NewTheme"
         tools:targetApi="31">
         <activity
+            android:name=".buttomSubOption"
+            android:exported="false" />
+        <activity
             android:name=".HomePage"
             android:exported="false"
-            android:theme="@style/Theme.EasyFixIt"/>
+            android:theme="@style/Theme.EasyFixIt" />
         <activity
             android:name=".OTP_Code"
             android:exported="false" />

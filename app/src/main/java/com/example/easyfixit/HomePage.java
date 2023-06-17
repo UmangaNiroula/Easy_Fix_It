@@ -4,16 +4,19 @@ import android.app.ActionBar;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import com.example.easyfixit.Fragment_Pages.BookingFragment;
 import com.example.easyfixit.Fragment_Pages.HomeFragment;
 import com.example.easyfixit.Fragment_Pages.ProductsFragment;
 import com.example.easyfixit.Fragment_Pages.ProfileFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import com.google.android.material.navigation.NavigationBarView;
 
 
@@ -24,6 +27,11 @@ public class HomePage extends AppCompatActivity {
     BookingFragment bookingFragment = new BookingFragment();
     ProductsFragment productsFragment = new ProductsFragment();
     ProfileFragment profileFragment = new ProfileFragment();
+
+
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,7 +68,12 @@ public class HomePage extends AppCompatActivity {
             }
         });
 
+
+
+
     }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -85,4 +98,6 @@ public class HomePage extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+
 }
