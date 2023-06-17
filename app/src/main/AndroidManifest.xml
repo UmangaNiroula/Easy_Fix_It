@@ -16,6 +16,9 @@
         android:theme="@style/NewTheme"
         tools:targetApi="31">
         <activity
+            android:name=".ServiceDetailPage"
+            android:exported="false" />
+        <activity
             android:name=".buttomSubOption"
             android:exported="false" />
         <activity

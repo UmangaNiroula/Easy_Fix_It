@@ -18,6 +18,7 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.107" />
         <entry key="app/src/main/res/drawable/location.xml" value="0.199" />
         <entry key="app/src/main/res/drawable/networking.xml" value="0.199" />
+        <entry key="app/src/main/res/drawable/networkingnow.xml" value="0.2035" />
         <entry key="app/src/main/res/drawable/notifications.xml" value="0.199" />
         <entry key="app/src/main/res/drawable/pinbackgroundbox.xml" value="0.215" />
         <entry key="app/src/main/res/drawable/product_nav.xml" value="0.1" />
@@ -29,6 +30,7 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.27136516466818217" />
         <entry key="app/src/main/res/layout/activity_main_page.xml" value="0.2986262252964207" />
         <entry key="app/src/main/res/layout/activity_otp_code.xml" value="0.14051094890510948" />
+        <entry key="app/src/main/res/layout/activity_service_detail_page.xml" value="0.5460789205934713" />
         <entry key="app/src/main/res/layout/fragment_booking.xml" value="0.15841064453125" />
         <entry key="app/src/main/res/layout/fragment_current.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/fragment_history.xml" value="0.2543822146216332" />
@@ -53,6 +55,7 @@
         <entry key="app/src/main/res/layout/fragment_service_option_salon.xml" value="0.19709277469003847" />
         <entry key="app/src/main/res/layout/fragment_service_option_vet.xml" value="0.19709277469003847" />
         <entry key="app/src/main/res/layout/item_service_view.xml" value="0.19623770842240273" />
+        <entry key="app/src/main/res/layout/item_view.xml" value="0.1224105461393597" />
         <entry key="app/src/main/res/layout/logosetter.xml" value="0.19623770842240273" />
         <entry key="app/src/main/res/layout/service_option_detail.xml" value="0.19623770842240273" />
         <entry key="app/src/main/res/layout/sub_option_popup.xml" value="0.2535271483539974" />
