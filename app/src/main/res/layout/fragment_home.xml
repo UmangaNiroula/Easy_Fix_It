@@ -174,7 +174,7 @@
                                 android:id="@+id/imageView6"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                app:srcCompat="@drawable/networking" />
+                                app:srcCompat="@drawable/networkingnow" />
 
                             <TextView
                                 android:id="@+id/textView9"
@@ -328,7 +328,7 @@
                                 android:id="@+id/imageView112"
                                 android:layout_width="match_parent"
                                 android:layout_height="24dp"
-                                app:srcCompat="@drawable/ic_baseline_smart_button_24" />
+                                app:srcCompat="@drawable/ac" />
 
                             <TextView
                                 android:id="@+id/textView116"
@@ -669,7 +669,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/hidden1"
+                        android:id="@+id/gas"
                         android:layout_width="146dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
@@ -702,7 +702,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/hidden2"
+                        android:id="@+id/geyser"
                         android:layout_width="146dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
@@ -721,7 +721,7 @@
                                 android:id="@+id/imageView111116"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                app:srcCompat="@drawable/networking" />
+                                app:srcCompat="@drawable/networkingnow" />
 
                             <TextView
                                 android:id="@+id/textView111119"
@@ -789,7 +789,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/solar" />
+                            app:srcCompat="@drawable/solarbanner" />
 
                         <ImageView
                             android:id="@+id/gyserProduct"

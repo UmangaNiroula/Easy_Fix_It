@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-black"
-        android:text="A/C &amp; Appliances"
+        android:text="A/C &amp; Appliances Repair Services"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView26">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/plumbling"
+            android:id="@+id/air"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1">
@@ -44,7 +44,7 @@
                     android:id="@+id/imageView7"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/ac" />
+                    app:srcCompat="@drawable/air" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -58,7 +58,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/electrical"
+            android:id="@+id/fridge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1">
@@ -72,7 +72,6 @@
                     android:id="@+id/imageView8"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:src="@drawable/electrical"
                     app:srcCompat="@drawable/fridge" />
 
                 <TextView
@@ -87,7 +86,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/motor"
+            android:id="@+id/solar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1">
@@ -102,7 +101,7 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:src="@drawable/motor"
-                    app:srcCompat="@drawable/solar" />
+                    app:srcCompat="@drawable/solarimage" />
 
                 <TextView
                     android:id="@+id/textView25"
@@ -128,7 +127,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout1">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/metal"
+            android:id="@+id/washing"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -158,7 +157,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/generator"
+            android:id="@+id/oven"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1">
@@ -187,7 +186,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/chimney"
+            android:id="@+id/tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1">
@@ -229,7 +228,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/inverter"
+            android:id="@+id/induction"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1">
@@ -258,7 +257,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/hidden1"
+            android:id="@+id/gas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -289,7 +288,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/hidden2"
+            android:id="@+id/geyser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

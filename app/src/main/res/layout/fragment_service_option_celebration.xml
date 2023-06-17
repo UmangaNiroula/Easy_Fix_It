@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-black"
-        android:text="House Repair Service"
+        android:text="Party Celebration Services"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,15 +23,16 @@
         android:id="@+id/linearLayout1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:orientation="horizontal"
         android:paddingStart="40dp"
+        android:paddingBottom="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView26">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/plumbling"
+            android:id="@+id/photo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1">
@@ -45,21 +46,21 @@
                     android:id="@+id/imageView7"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/plumbing" />
+                    app:srcCompat="@drawable/photoservice" />
 
                 <TextView
                     android:id="@+id/textView4"
-                    android:layout_width="60dp"
+                    android:layout_width="70dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Plumbing Service"
+                    android:text="Photo &amp; Video Service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/electrical"
+            android:id="@+id/cook"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1">
@@ -73,21 +74,21 @@
                     android:id="@+id/imageView8"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:src="@drawable/electrical" />
+                    android:src="@drawable/cookservice" />
 
                 <TextView
                     android:id="@+id/textView20"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Electrical Service"
+                    android:text="Cook On Call Service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/motor"
+            android:id="@+id/event"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1">
@@ -101,220 +102,16 @@
                     android:id="@+id/imageView9"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:src="@drawable/motor" />
+                    android:src="@drawable/eventservice" />
 
                 <TextView
                     android:id="@+id/textView25"
-                    android:layout_width="60dp"
+                    android:layout_width="70dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Motor Service"
+                    android:text="Event Planner Service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal"
-        android:paddingStart="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout1">
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/metal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:cardBackgroundColor="#FFFFFF">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/imageView71"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    app:srcCompat="@drawable/metal" />
-
-                <TextView
-                    android:id="@+id/textView41"
-                    android:layout_width="60dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Metal Service"
-                    android:textSize="12sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/generator"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/imageView72"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    app:srcCompat="@drawable/generator" />
-
-                <TextView
-                    android:id="@+id/textView42"
-                    android:layout_width="60dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Generator Service"
-                    android:textSize="12sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/chimney"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/imageView73"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    app:srcCompat="@drawable/chimney" />
-
-                <TextView
-                    android:id="@+id/textView43"
-                    android:layout_width="60dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Chimney Service"
-                    android:textSize="12sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearlayout3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal"
-        android:paddingStart="30dp"
-        android:paddingBottom="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/inverter"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/imageView74"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    app:srcCompat="@drawable/inverters" />
-
-                <TextView
-                    android:id="@+id/textView44"
-                    android:layout_width="60dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Inverter, Batteries &amp; UPS Service"
-                    android:textSize="12sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/hidden1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:visibility="invisible">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:visibility="invisible">
-
-                <ImageView
-                    android:id="@+id/imageView70"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    app:srcCompat="@drawable/plumbing" />
-
-                <TextView
-                    android:id="@+id/textView40"
-                    android:layout_width="60dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Plumbing Service"
-                    android:textSize="12sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/hidden2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:visibility="invisible">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:visibility="invisible">
-
-                <ImageView
-                    android:id="@+id/imageView781"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    app:srcCompat="@drawable/plumbing" />
-
-                <TextView
-                    android:id="@+id/textView481"
-                    android:layout_width="60dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Plumbing Service"
-                    android:textSize="12sp"
-                    android:textStyle="bold" />
-
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>

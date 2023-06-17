@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-black"
-        android:text="House Repair Service"
+        android:text="House Repair Services"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +31,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView26">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/plumbling"
+            android:id="@+id/plumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1">
@@ -257,7 +257,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/hidden1"
+            android:id="@+id/hidden1HouseRepair"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -288,7 +288,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/hidden2"
+            android:id="@+id/hidden2HouseRepair"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
