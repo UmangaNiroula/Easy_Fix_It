@@ -2,11 +2,13 @@ package com.example.easyfixit.Adaptation;
 
 import android.content.Context;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.easyfixit.Interface.SelectListener;
 import com.example.easyfixit.R;
 import com.example.easyfixit.ServiceDetails.Item;
 import com.example.easyfixit.View_Holder.MyViewHolder;
@@ -17,10 +19,12 @@ public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
 
     Context context;
     List<Item> items;
+    private SelectListener listener;
 
-    public MyAdapter(Context context, List<Item> items) {
+    public MyAdapter(Context context, List<Item> items, SelectListener listener) {
         this.context = context;
         this.items = items;
+        this.listener = listener;
     }
 
     @NonNull
@@ -36,6 +40,14 @@ public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
         holder.serviceDescription.setText(items.get(position).getServiceDescription());
         holder.serviceTime.setText(items.get(position).getEstimateTime());
         holder.serviceImage.setImageResource(items.get(position).getImagePath());
+
+        holder.serviceAdd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               listener.onItemClicked(items.get(position));
+            }
+        });
+
     }
 
     @Override

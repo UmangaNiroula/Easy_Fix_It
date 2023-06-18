@@ -18,6 +18,7 @@ public class MyViewHolder extends RecyclerView.ViewHolder {
     public TextView servicePrice;
     public TextView serviceDescription;
     public TextView serviceTime;
+    public Button serviceAdd;
 
     public MyViewHolder(@NonNull View itemView) {
         super(itemView);
@@ -27,5 +28,6 @@ public class MyViewHolder extends RecyclerView.ViewHolder {
         servicePrice = itemView.findViewById(R.id.servicePrice);
         serviceDescription = itemView.findViewById(R.id.serviceDescription);
         serviceTime = itemView.findViewById(R.id.serviceTime);
+        serviceAdd = itemView.findViewById(R.id.serviceAdd);
     }
 }

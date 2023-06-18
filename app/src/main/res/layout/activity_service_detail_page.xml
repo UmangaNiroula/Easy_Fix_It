@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,33 +7,71 @@
     android:layout_height="match_parent"
     tools:context=".ServiceDetailPage">
 
-    <ImageView
-        android:id="@+id/backServiceButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="11dp"
-        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/backServiceButton"
-        android:layout_marginTop="13dp" />
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/header11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="71dp"
-        android:layout_marginTop="10dp"
-        android:layout_toEndOf="@+id/backServiceButton"
-        android:fontFamily="@font/baloo_tamma"
-        android:text="TextView"
-        android:textColor="#014388"
-        android:textSize="20sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="20dp"
+            tools:context=".ServiceDetailPage">
+
+            <ImageView
+                android:id="@+id/backServiceButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="11dp"
+                app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/backServiceButton"
+                android:layout_marginTop="13dp" />
+
+            <TextView
+                android:id="@+id/header11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="71dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/backServiceButton"
+                android:fontFamily="@font/baloo_tamma"
+                android:text="TextView"
+                android:textColor="#F65625"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/nextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recyclerView"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="27dp"
+                android:backgroundTint="#124EBA"
+                android:text="Book Service" />
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recyclerView"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="11dp"
+                android:backgroundTint="#F65625"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:text="Return" />
+
+        </RelativeLayout>
+    </ScrollView>
+
 </RelativeLayout>

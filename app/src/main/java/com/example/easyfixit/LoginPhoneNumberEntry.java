@@ -11,8 +11,10 @@ import android.widget.Toast;
 import com.google.android.material.textfield.TextInputLayout;
 
 public class LoginPhoneNumberEntry extends AppCompatActivity {
+
     private Button eContinueBtn;
     private TextInputLayout ePhoneNumberEnter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

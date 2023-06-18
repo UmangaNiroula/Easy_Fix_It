@@ -26,11 +26,11 @@
         <entry key="app/src/main/res/drawable/search.xml" value="0.199" />
         <entry key="app/src/main/res/layout/activity_bottom_sub_option.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.2543822146216332" />
-        <entry key="app/src/main/res/layout/activity_login_phone_number_entry.xml" value="0.14645996093750002" />
+        <entry key="app/src/main/res/layout/activity_login_phone_number_entry.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.27136516466818217" />
         <entry key="app/src/main/res/layout/activity_main_page.xml" value="0.2986262252964207" />
         <entry key="app/src/main/res/layout/activity_otp_code.xml" value="0.14051094890510948" />
-        <entry key="app/src/main/res/layout/activity_service_detail_page.xml" value="0.5460789205934713" />
+        <entry key="app/src/main/res/layout/activity_service_detail_page.xml" value="0.1307159423828125" />
         <entry key="app/src/main/res/layout/fragment_booking.xml" value="0.15841064453125" />
         <entry key="app/src/main/res/layout/fragment_current.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/fragment_history.xml" value="0.2543822146216332" />
@@ -70,5 +70,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.4190261840820312" />
+      </ProjectState>
+    </option>
   </component>
 </project>
