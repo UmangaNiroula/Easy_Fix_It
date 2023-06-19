@@ -276,14 +276,6 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
                 addHealthHomeItems();
                 break;
 
-            case "Hilltake Geyser Services":
-                addHilltakeItems();
-                break;
-
-            case "Crompton Geyser Services":
-                addCromptonItems();
-                break;
-
             case "Salon For Women":
                 addSalonItems();
                 break;
@@ -797,9 +789,9 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     }
 
     public void addTvItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"32 inch TV Repair",
+                "40 inch  TV Repair",
+                "43 inch Tv Repair",
                 "Unknown Problems?"
         };
 
@@ -815,15 +807,15 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Repair, replacement, installation, or removal of 32 inch Television.",
+                "Repair, replacement, installation, or removal of 40 inch Television.",
+                "Repair, replacement, installation, or removal of 43 inch Television.",
+                "A highly experienced handyman in Television repair will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.ttinchtv,
+                R.drawable.foinchtevelision,
+                R.drawable.ftinchtelevison,
                 R.drawable.experthandyman
         };
 
@@ -831,33 +823,23 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     }
 
     public void addInductionItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Induction Issues",
                 "Unknown Problems?"
         };
 
         String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection"
         };
 
         String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Repair or replacement of fan, board, sensor issues, and many more.",
+                "A highly experienced handyman in Induction repair will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.induction,
                 R.drawable.experthandyman
         };
 
@@ -865,9 +847,9 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     }
 
     public void addGasItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Lighter Gas Stove",
+                "Automatic Gas Stove",
+                "Marble/Granite Gas Stove",
                 "Unknown Problems?"
         };
 
@@ -883,15 +865,15 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Repair or replacement of Lighter Gas Stove.",
+                "Repair or replacement of Automatic Gas Stov.",
+                "Repair or replacement of Marble/Granite Gas Stove.",
+                "A highly experienced handyman in Gas Stove repair will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.lightergasstove,
+                R.drawable.automaticgasstove,
+                R.drawable.marbelgasstove,
                 R.drawable.experthandyman
         };
 
@@ -899,33 +881,28 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     }
 
     public void addGeyserItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Gas Geyser",
+                "Electric Geyser",
                 "Unknown Problems?"
         };
 
         String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection"
         };
 
         String[] serviceTime = {"Time: Upon Inspection",
                 "Time: Upon Inspection",
-                "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Repair, replacement, installation, or removal of Gas Geyser.",
+                "Repair, replacement, installation, or removal of Electric Geyser.",
+                "A highly experienced handyman in Geyser repair will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.gasgeyser,
+                R.drawable.geyser,
                 R.drawable.experthandyman
         };
 
@@ -1880,76 +1857,6 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
 
     //Health at Home Related Services
     public void addHealthHomeItems() {
-        String[] serviceName = {"",
-                "",
-                "",
-                "Unknown Problems?"
-        };
-
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection"
-        };
-
-        String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection"
-        };
-
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
-        };
-
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
-                R.drawable.experthandyman
-        };
-
-        showItems(serviceName,serviceCost,serviceTime,serviceDesc,imagePath);
-    }
-
-
-    //Heater Related Service
-    public void addHilltakeItems() {
-        String[] serviceName = {"",
-                "",
-                "",
-                "Unknown Problems?"
-        };
-
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection"
-        };
-
-        String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection"
-        };
-
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
-        };
-
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
-                R.drawable.experthandyman
-        };
-
-       showItems(serviceName,serviceCost,serviceTime,serviceDesc,imagePath);
-    }
-
-    public void addCromptonItems() {
         String[] serviceName = {"",
                 "",
                 "",
