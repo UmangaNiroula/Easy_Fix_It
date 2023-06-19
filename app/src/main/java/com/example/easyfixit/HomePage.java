@@ -28,11 +28,6 @@ public class HomePage extends AppCompatActivity {
     ProductsFragment productsFragment = new ProductsFragment();
     ProfileFragment profileFragment = new ProfileFragment();
 
-
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -68,11 +63,7 @@ public class HomePage extends AppCompatActivity {
             }
         });
 
-
-
-
     }
-
 
 
     @Override

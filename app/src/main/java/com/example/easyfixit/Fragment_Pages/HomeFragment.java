@@ -25,7 +25,6 @@ import com.example.easyfixit.Fragment_Pages.BottomSheetFragment.ServiceOptionCom
 import com.example.easyfixit.Fragment_Pages.BottomSheetFragment.ServiceOptionConstruction;
 import com.example.easyfixit.Fragment_Pages.BottomSheetFragment.ServiceOptionGardening;
 import com.example.easyfixit.Fragment_Pages.BottomSheetFragment.ServiceOptionHealth;
-import com.example.easyfixit.Fragment_Pages.BottomSheetFragment.ServiceOptionHeater;
 import com.example.easyfixit.Fragment_Pages.BottomSheetFragment.ServiceOptionHome;
 import com.example.easyfixit.Fragment_Pages.BottomSheetFragment.ServiceOptionLaundry;
 import com.example.easyfixit.Fragment_Pages.BottomSheetFragment.ServiceOptionMover;
@@ -47,7 +46,6 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
     private CardView houseRepairService;
     private CardView paintingService;
     private CardView computerService;
-    private CardView waterHeaterService;
     private CardView carpentryService;
     private CardView constructionService;
     private CardView acService;
@@ -94,7 +92,6 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         houseRepairService =  view.findViewById(R.id.houseRepairService);
         paintingService = view.findViewById(R.id.paintingService);
         computerService = view.findViewById(R.id.computerService);
-        waterHeaterService = view.findViewById(R.id.waterHeaterService);
         carpentryService = view.findViewById(R.id.carpentryService);
         constructionService = view.findViewById(R.id.constructionService);
         acService = view.findViewById(R.id.acService);
@@ -114,7 +111,6 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         houseRepairService.setOnClickListener(this);
         paintingService.setOnClickListener(this);
         computerService.setOnClickListener(this);
-        waterHeaterService.setOnClickListener(this);
         carpentryService.setOnClickListener(this);
         constructionService.setOnClickListener(this);
         acService.setOnClickListener(this);
@@ -230,10 +226,6 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
                 bottomSheetFragmentSalon.show(getChildFragmentManager(), bottomSheetFragmentSalon.getTag());
                 break;
 
-            case R.id.waterHeaterService:
-                ServiceOptionHeater bottomSheetFragmentHeater = new ServiceOptionHeater();
-                bottomSheetFragmentHeater.show(getChildFragmentManager(), bottomSheetFragmentHeater.getTag());
-                break;
         }
 
     }

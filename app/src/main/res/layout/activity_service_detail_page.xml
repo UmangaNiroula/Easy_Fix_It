@@ -44,7 +44,7 @@
                 android:layout_toEndOf="@+id/backServiceButton"
                 android:fontFamily="@font/baloo_tamma"
                 android:text="TextView"
-                android:textColor="#F65625"
+                android:textColor="#00346A"
                 android:textSize="20sp" />
 
             <Button
