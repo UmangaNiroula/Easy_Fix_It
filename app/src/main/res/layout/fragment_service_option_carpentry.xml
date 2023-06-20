@@ -161,7 +161,8 @@
             android:id="@+id/upvc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:visibility="invisible">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -190,7 +191,8 @@
             android:id="@+id/toughened"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:visibility="invisible">
 
             <LinearLayout
                 android:layout_width="wrap_content"

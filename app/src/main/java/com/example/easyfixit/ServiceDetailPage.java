@@ -188,14 +188,6 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
                 addGlassItems();
                 break;
 
-            case "UPVC Services":
-                addUPVCItems();
-                break;
-
-            case "Toughened Glass Services":
-               addToughenedItems();
-                break;
-
             case "Photo & Video Services":
                addPhotoItems();
                 break;
@@ -912,68 +904,63 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
 
     //Car Related Services
     public void addDriverItems() {
-        String[] serviceName = {"",
-                "",
-                "",
-                "Unknown Problems?"
+        String[] serviceName = {"Inside Valley",
+                "Outside Valley",
+                "Annual Contract",
         };
 
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
+        String[] serviceCost = {"Estimated Price: Rs. 2000 Per Day",
+                "Estimated Price: Rs. 3000 Per Day",
                 "Estimated Price: Upon Inspection"
         };
 
-        String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection",
+        String[] serviceTime = {"Time: 12 hrs",
+                "Time: 12 hrs",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Highly experienced driver for one day inside valley.",
+                "Highly experienced driver for one day outside valley.",
+                "Highly experienced driver on contract.",
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
-                R.drawable.experthandyman
+        int[] imagePath =  {R.drawable.driveronedayinside,
+                R.drawable.driveroutside,
+                R.drawable.contractdriver
         };
 
         showItems(serviceName,serviceCost,serviceTime,serviceDesc,imagePath);
     }
 
     public void addCarWashItems() {
-        String[] serviceName = {"",
-                "",
-                "",
-                "Unknown Problems?"
+        String[] serviceName = {"Small Car",
+                "SUV & Mini SUV",
+                "Hiace & Bus",
+                "Looking For Something Else?"
         };
 
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
+        String[] serviceCost = {"Estimated Price: Rs. 3800",
+                "Estimated Price: Rs. 4800",
+                "Estimated Price: Rs. 680 Per Seat",
                 "Estimated Price: Upon Inspection"
         };
 
-        String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection",
+        String[] serviceTime = {"Time: 2 hrs",
+                "Time: 2 hrs",
+                "Time: 4 hrs",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Detailed Cleaning of the total exterior and interior sections such as seat, roof, door mat, floor, dashboard, and ceiling cleaned by premium cleaning chemicals.",
+                "Detailed Cleaning of the total exterior and interior sections such as seat, roof, door mat, floor, dashboard, and ceiling cleaned by premium cleaning chemicals.",
+                "Detailed Cleaning of the total exterior and interior sections such as seat, roof, door mat, floor, dashboard, and ceiling cleaned by premium cleaning chemicals.",
+                "A highly experienced Car washer will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
-                R.drawable.experthandyman
+        int[] imagePath =  {R.drawable.smallcar,
+                R.drawable.suv,
+                R.drawable.hiace,
+                R.drawable.carwash
         };
 
         showItems(serviceName,serviceCost,serviceTime,serviceDesc,imagePath);
@@ -982,13 +969,15 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
 
     //Carpentry Related Services
     public void addCarpentryItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Wooden Furniture Repair",
+                "Wooden Furniture Fabrication",
+                "Hydraulic Chair Repair",
+                "Dinning Chair Repair",
                 "Unknown Problems?"
         };
 
         String[] serviceCost = {"Estimated Price: Upon Inspection",
+                "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection"
@@ -997,18 +986,21 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
         String[] serviceTime = {"Time: Upon Inspection",
                 "Time: Upon Inspection",
                 "Time: Upon Inspection",
+                "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Expert wooden furniture repair services to bring new life to your cherished pieces.",
+                "Expert craftsmanship and quality materials come together in our wooden furniture fabrication service, creating exquisite and durable pieces that elevate your living spaces.",
+                "Expert hydraulic chair repair services to fix and enhance the functionality of your hydraulic chairs, ensuring optimal comfort and usability.",
+                "Expert dining chair repair services to revitalize and extend the lifespan of your cherished furniture",
+                "A highly experienced carpenter will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.woodenfurniturerepair,
+                R.drawable.woodenfurniturefabrication,
+                R.drawable.hydraulicchairrepair,
+                R.drawable.diningchairrepair,
                 R.drawable.experthandyman
         };
 
@@ -1016,33 +1008,23 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     }
 
     public void addSofaItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Sofa Repair/Order",
                 "Unknown Problems?"
         };
 
         String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection"
         };
 
         String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Repair or replacement of sofa covers and any other damaged parts along side order for customized Sofa.",
+                "A highly experienced carpenter will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.sofa,
                 R.drawable.experthandyman
         };
 
@@ -1050,13 +1032,15 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     }
 
     public void addAluminiumItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Aluminium Repair",
+                "Door Fabrication",
+                "Window Fabrication",
+                "Partition Fabrication",
                 "Unknown Problems?"
         };
 
         String[] serviceCost = {"Estimated Price: Upon Inspection",
+                "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection"
@@ -1065,18 +1049,21 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
         String[] serviceTime = {"Time: Upon Inspection",
                 "Time: Upon Inspection",
                 "Time: Upon Inspection",
+                "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Expert aluminium repair services to fix and restore the integrity of your aluminium structures, ensuring durability and longevityt.",
+                "Expert fabrication of high-quality aluminium doors tailored to your specific needs, combining durability, aesthetics, and functionality.",
+                "Expert aluminum window fabrication services for durable, stylish, and energy-efficient windows tailored to your specific needs.",
+                "Expert aluminum partition fabrication services tailored to meet your specific needs, providing functional and aesthetically pleasing solutions for your space",
+                "A highly experienced carpenter will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.aluminiumrepair,
+                R.drawable.doorfabrication,
+                R.drawable.windowfabrication,
+                R.drawable.partationfabrication,
                 R.drawable.experthandyman
         };
 
@@ -1084,140 +1071,76 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     }
 
     public void addGlassItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Tinted Glass Glazing",
+                "Plain Glass Glazing",
                 "Unknown Problems?"
         };
 
         String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection"
         };
 
         String[] serviceTime = {"Time: Upon Inspection",
                 "Time: Upon Inspection",
-                "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"High-quality tinted glass solutions offer privacy, reduce glare, and provide energy efficiency while adding a touch of elegance to the exterior of your building.",
+                "Enhance the aesthetics and functionality of your building's exterior with our high-quality plain glass glazing service.",
+                "A highly experienced carpenter will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.tintedglazing,
+                R.drawable.plainglazing,
                 R.drawable.experthandyman
         };
 
         showItems(serviceName,serviceCost,serviceTime,serviceDesc,imagePath);
     }
-
-    public void addUPVCItems() {
-        String[] serviceName = {"",
-                "",
-                "",
-                "Unknown Problems?"
-        };
-
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection"
-        };
-
-        String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection"
-        };
-
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
-        };
-
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
-                R.drawable.experthandyman
-        };
-
-        showItems(serviceName,serviceCost,serviceTime,serviceDesc,imagePath);
-    }
-
-    public void addToughenedItems() {
-        String[] serviceName = {"",
-                "",
-                "",
-                "Unknown Problems?"
-        };
-
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection"
-        };
-
-        String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection"
-        };
-
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
-        };
-
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
-                R.drawable.experthandyman
-        };
-
-        showItems(serviceName,serviceCost,serviceTime,serviceDesc,imagePath);
-    }
-
 
 
     //Celebration Related Services
     public void addPhotoItems() {
 
-        String[] serviceName = {"",
-                "",
-                "",
-                "Unknown Problems?"
+        String[] serviceName = {"Wedding Package",
+                "Bratabandha",
+                "Pasni Ceremony",
+                "Birthday",
+                "New Born/Maternity",
+                "Other Events?"
         };
 
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
+        String[] serviceCost = {"Estimated Price: Rs. 100,000 - Rs. 150,000",
+                "Estimated Price: Rs. 40,000 Per Ceremony",
+                "Estimated Price: Rs. 40,000 Per Ceremony",
+                "Estimated Price: Rs. 15,000 Per Part",
+                "Estimated Price: Rs. 15,000 Per Photoshoot",
                 "Estimated Price: Upon Inspection"
         };
 
         String[] serviceTime = {"Time: Upon Inspection",
                 "Time: Upon Inspection",
                 "Time: Upon Inspection",
+                "Time: Upon Inspection",
+                "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Including Both Photo & Video Coverage of Engagement, Mehendi, & Wedding.",
+                "Including Photo & Video Service for whole day.",
+                "Including Photo & Video Service for whole day.",
+                "Including Photo & Video Service for whole day..",
+                "Including Photo & Video Service for whole day..",
+                "A highly experienced Photo and Videographer will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
-                R.drawable.experthandyman
+        int[] imagePath =  {R.drawable.weddingpackage,
+                R.drawable.bratabhanda,
+                R.drawable.pasni,
+                R.drawable.birthday,
+                R.drawable.newboarn,
+                R.drawable.photography
         };
 
         showItems(serviceName,serviceCost,serviceTime,serviceDesc,imagePath);
@@ -1225,68 +1148,68 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
 
     public void addCookItems() {
 
-        String[] serviceName = {"",
-                "",
-                "",
-                "Unknown Problems?"
+        String[] serviceName = {"Cook On Call",
+                "Looking For Something Else?"
         };
 
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
+        String[] serviceCost = {"Estimated Price: Depends on Amount of Food",
                 "Estimated Price: Upon Inspection"
         };
 
         String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Convenient and hassle-free Cook On Call service providing skilled and experienced chefs who prepare delicious meals in the comfort of your home.",
+                "A highly experienced Cook and a Consultant will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
-                R.drawable.experthandyman
+        int[] imagePath =  {R.drawable.cookservice,
+                R.drawable.cookexperience
         };
 
         showItems(serviceName,serviceCost,serviceTime,serviceDesc,imagePath);
     }
 
     public void addEventItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Wedding Events",
+                "Pasni",
+                "Baby Shower",
+                "Corporate Events",
+                "Birthday",
                 "Unknown Problems?"
         };
 
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
+        String[] serviceCost = {"Estimated Price: Rs. 60,000 to 4,50,000 Package",
+                "Estimated Price: Rs. 12,000 to 100,000 Package",
+                "Estimated Price: Rs. 12,000 to 100,000 Package",
+                "Estimated Price: Rs. 18,000 to 80,000 Package",
+                "Estimated Price: Rs. 10,000 to 50,000 Package",
                 "Estimated Price: Upon Inspection"
         };
 
         String[] serviceTime = {"Time: Upon Inspection",
                 "Time: Upon Inspection",
                 "Time: Upon Inspection",
+                "Time: Upon Inspection",
+                "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
+        String[] serviceDesc = {"Planning and executing unforgettable weddings.",
+                "Planning and executing unforgettable pasni.",
+                "Planning and executing unforgettable baby shower.",
+                "Expertly orchestrating professional gatherings and experiences for businesses to achieve their goals, enhance relationships, and cultivate success.",
+                "Planning and executing unforgettable Birthday.",
                 "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
-                R.drawable.experthandyman
+        int[] imagePath =  {R.drawable.weddingpackage,
+                R.drawable.pasni,
+                R.drawable.babyshower,
+                R.drawable.corporateevents,
+                R.drawable.birthday,
+                R.drawable.eventmanagerservice
         };
 
         showItems(serviceName,serviceCost,serviceTime,serviceDesc,imagePath);
@@ -1296,33 +1219,28 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     //Cleaning Services
     public void addWaterTankItems() {
 
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Reserve Tank Cleaning",
+                "Over Head Tank Cleaning",
                 "Unknown Problems?"
         };
 
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
+        String[] serviceCost = {"Estimated Price: Rs. 3200 Per Unit",
+                "Estimated Price: Rs. 1500 Per Unit",
                 "Estimated Price: Upon Inspection"
         };
 
-        String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection",
+        String[] serviceTime = {"Time: 6 hrs",
+                "Time: 2 hrs",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Reserve tank Cleaning with advance machinery & UV treatment (For 8000 liters Tank, price will decrease with the size of Tank).",
+                "Tank Cleaning with advance machinery & UV treatment (For 1000 liters Tank, price will increase with the size of Tank).",
+                "A highly experienced handyman in Tank cleaning will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.groundtank,
+                R.drawable.tank,
                 R.drawable.experthandyman
         };
 
@@ -1330,33 +1248,23 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     }
 
     public void addSepticItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Septic Tank Cleaning",
                 "Unknown Problems?"
         };
 
         String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection"
         };
 
         String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Septic Tank Cleaning with advance machinery.",
+                "A highly experienced handyman in Septic Tank cleaning will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.septictank,
                 R.drawable.experthandyman
         };
 
@@ -1364,33 +1272,53 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     }
 
     public void addHouseholdItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Basic Cleaning",
+                "Carpet Cleaning",
+                "Furniture Cleaning",
+                "Title/Marble/Granite Cleaning",
+                "Window Cleaning",
+                "Toilet Cleaning",
+                "Chimney Cleaning",
                 "Unknown Problems?"
         };
 
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
+        String[] serviceCost = {"Estimated Price: 3400 Per Unit",
+                "Estimated Price: Rs 17 Per Sq.ft.",
+                "Estimated Price: Mentioned in Description",
+                "Estimated Price: 12 Per Sq.ft.",
+                "Estimated Price: 12 per Sq.ft.",
+                "Estimated Price: 2260 Per Unit",
+                "Estimated Price: 2500 Per Pc",
                 "Estimated Price: Upon Inspection"
         };
 
-        String[] serviceTime = {"Time: Upon Inspection",
+        String[] serviceTime = {"Time: 4 hrs",
+                "Time: 3 hrs",
+                "Time: 6 hrs",
+                "Time: 4 hrs",
+                "Time: 5 hrs",
                 "Time: Upon Inspection",
-                "Time: Upon Inspection",
+                "Time: 2 hrs",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Cleaning of entire 1BHK apartment with professional tools (The price will increase with the number of rooms).",
+                "Deep Cleaning of Normal carpet (Nepali Galaicha Cleaning will cost Rs. 23 Per Sq.ft.).",
+                "Deep Cleaning of Dining Chairs (Rs. 400 Per Pc) and Sofa (Rs. 680 Per Unit).",
+                "Marble/Title/Cheeps/Granite/Parqueting Deep Cleaning (Polishing will cost Rs. 70 Per Sq.ft.).",
+                "Indoor Window cleaning (Outdoor windows will cost Rs. 23 Per Sq.ft.).",
+                "Deep Cleaning of Toilet (Price Depends on the size of the Toilet and number of Commode and Urinals).",
+                "Deep Cleaning of Domestic Chimney (Commercial Chimney will  cost Rs. 3500 Per Pc).",
+                "A highly experienced handyman in Household cleaning will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.appartmentcleaning,
+                R.drawable.carpetcleaning,
+                R.drawable.sofacleaning,
+                R.drawable.tilescleaning,
+                R.drawable.windowscleaning,
+                R.drawable.toiletcleaning,
+                R.drawable.chimneycleaning,
                 R.drawable.experthandyman
         };
 
@@ -1398,33 +1326,58 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     }
 
     public void addPestItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Mosquito/Dengue Control",
+                "Termite Control",
+                "Cockroach Control",
+                "Bed Bug Control",
+                "Flea & Ticks Control",
+                "Rodent Control",
+                "Birds Control",
+                "General Pest Management",
                 "Unknown Problems?"
         };
 
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
+        String[] serviceCost = {"Estimated Price: Rs. 2000 Per Floor",
+                "Estimated Price: Rs. 25 Per Sq.ft",
+                "Estimated Price: Rs. 5000 Per Unit",
+                "Estimated Price: Rs. 6000 Per Unit",
+                "Estimated Price: Rs. 2000 Upto 300 Sq.ft.",
+                "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection"
         };
 
-        String[] serviceTime = {"Time: Upon Inspection",
+        String[] serviceTime = {"Time: 3 hrs",
+                "Time: 3 hrs",
+                "Time: 8 hrs",
+                "Time: 3 hrs",
                 "Time: Upon Inspection",
+                "Time: Upon Inspection",
+                "Time: 1 hrs",
                 "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Indoor Fogging and Spray (Price may vary for large BHK / Outdoor service will cost Rs. 3500 Per area below 1 acres).",
+                "Combining advanced technology and expert techniques to ensure long-term protection.",
+                "Cutting-edge technology and proven techniques to target cockroaches at all stages of their life cycle for 1 BHK (Price will increase with the number of room).",
+                "Utilizing advanced techniques and safe insecticides, our solution targets bed bugs at all stages of their life cycle for 1 Bedroom (Price will increase with the number of room).",
+                "Inspection and identification of infested areas, followed by precise application of specialized insecticides that effectively eradicate fleas and ticks while minimizing risks to humans and pets.",
+                "Inspection to determine the extent of the infestation and identify entry points and eliminate rodents.",
+                "3 - 5 Line Spike and Bird Net installation service to keep the braids away.",
+                "Inspection and identification of other general crawling & flying pests.",
+                "A highly experienced handyman in Pest Control will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.mosquitocontrol,
+                R.drawable.termitecontrol,
+                R.drawable.cockroachcontrol,
+                R.drawable.bedbugcontrol,
+                R.drawable.fleatickcontrol,
+                R.drawable.rodantcontrol,
+                R.drawable.birdscontrol,
+                R.drawable.generalpestcontrol,
                 R.drawable.experthandyman
         };
 
@@ -1432,38 +1385,34 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     }
 
     public void addGlassCleaningItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Normal Glass Cleaning",
+                "Rope Access Glass Cleaning",
                 "Unknown Problems?"
         };
 
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
+        String[] serviceCost = {"Estimated Price: Rs. 25 Per Sq.ft.",
+                "Estimated Price: Rs. 35 Per Sq.ft.",
                 "Estimated Price: Upon Inspection"
         };
 
-        String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection",
+        String[] serviceTime = {"Time: 6 hrs",
+                "Time: 6 hrs",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Cleaning commercial inside & outside windows without rope access.",
+                "Cleaning commercial inside & outside windows with rope access.",
+                "A highly experienced handyman in windows cleaning will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.windowcleaningwithout,
+                R.drawable.windowcleaningwithropeaccess,
                 R.drawable.experthandyman
         };
 
         showItems(serviceName,serviceCost,serviceTime,serviceDesc,imagePath);
     }
+
 
     //Computer Services
     public void addPABXItems() {
@@ -1615,33 +1564,28 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
 
     //Construction Service
     public void addEngineeringItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"2D Designs",
+                "3D Rendering",
                 "Unknown Problems?"
         };
 
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
+        String[] serviceCost = {"Estimated Price: Rs. 50000 Upto 800 Sq.ft.",
+                "Estimated Price: 25000 Economic Package",
                 "Estimated Price: Upon Inspection"
         };
 
-        String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
+        String[] serviceTime = {"Time: 4 hrs",
                 "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"2D municipal drawing as per the guidelines of municipality and support for municipality drawing approval (Price will increase depending on the size).",
+                "Cutting-edge solution for visualizing and presenting engineering designs with stunning realism and detail (Price will increase depending on the package).",
+                "A highly experienced Engineer will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.designs,
+                R.drawable.renderingthreed,
                 R.drawable.experthandyman
         };
 
@@ -1649,33 +1593,23 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     }
 
     public void addBuildingItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Consultation from Engineer",
                 "Unknown Problems?"
         };
 
         String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection"
         };
 
         String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Knowledgeable professionals will work closely to understand vision, goals, and budget, ensuring that every aspect of the project is meticulously planned and executed.",
+                "A highly experienced Engineer will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.constructionhouse,
                 R.drawable.experthandyman
         };
 
@@ -1683,33 +1617,28 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     }
 
     public void addRenovationItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Interior Renovation",
+                "Exterior Renovation",
                 "Unknown Problems?"
         };
 
         String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection"
         };
 
         String[] serviceTime = {"Time: Upon Inspection",
                 "Time: Upon Inspection",
-                "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Offers expert guidance and practical solutions for renovation project.",
+                "Offers expert guidance and practical solutions for renovation project.",
+                "A highly experienced Engineer will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.interiorrenovationservice,
+                R.drawable.exteriorrenobationservice,
                 R.drawable.experthandyman
         };
 
@@ -1717,13 +1646,15 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     }
 
     public void addMasonryItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Title/Marble/Granite Installation",
+                "Skirting",
+                "Molding",
+                "Wall Construction",
                 "Unknown Problems?"
         };
 
         String[] serviceCost = {"Estimated Price: Upon Inspection",
+                "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection"
@@ -1732,18 +1663,21 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
         String[] serviceTime = {"Time: Upon Inspection",
                 "Time: Upon Inspection",
                 "Time: Upon Inspection",
+                "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Top-quality craftsmanship and meticulous attention to detail for your flooring or counter top needs.",
+                "Professional and high-quality solution for enhancing the aesthetic appeal and functionality of your space.",
+                "Professional molding service is designed to add elegance, sophistication, and visual appeal to your living or working space.",
+                "Professional and reliable solutions for creating durable and visually appealing walls.",
+                "A highly experienced handyman in Masonry work will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.tilesinstallation,
+                R.drawable.skirtingservice,
+                R.drawable.molding,
+                R.drawable.wallconstructuion,
                 R.drawable.experthandyman
         };
 
@@ -1751,13 +1685,21 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     }
 
     public void addProofingItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Basement Area",
+                "Terrace and Slope Roof",
+                "Washroom & Bathroom",
+                "Injection Grouting System",
+                "HY-Series Membrane Treatment",
+                "Expansion Joint Treatment",
+                "Anti-termite Treatment",
                 "Unknown Problems?"
         };
 
         String[] serviceCost = {"Estimated Price: Upon Inspection",
+                "Estimated Price: Upon Inspection",
+                "Estimated Price: Upon Inspection",
+                "Estimated Price: Upon Inspection",
+                "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection"
@@ -1766,18 +1708,30 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
         String[] serviceTime = {"Time: Upon Inspection",
                 "Time: Upon Inspection",
                 "Time: Upon Inspection",
+                "Time: Upon Inspection",
+                "Time: Upon Inspection",
+                "Time: Upon Inspection",
+                "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Reliable basement waterproofing solutions to keep basement dry and protected.",
+                "Reliable service ensures protection against water damage and leakage, keeping property safe and dry.",
+                "Reliable service ensures effective waterproofing solutions for your washroom and bathroom.",
+                "Reliable waterproofing through advanced injection grouting system.",
+                "Reliable waterproofing through advanced HY-Series membrane treatment.",
+                "Reliable waterproofing through advanced expansion joint treatment.",
+                "Reliable waterproofing through advanced anti-termite treatment.",
+                "A highly experienced handyman in Waterproofing will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.waterproofingbasemntarea,
+                R.drawable.terraceandslopearea,
+                R.drawable.toiletproofingwater,
+                R.drawable.injectiongrouting,
+                R.drawable.bitumenmambrane,
+                R.drawable.expensionjointfiller,
+                R.drawable.antitermitetreatment,
                 R.drawable.experthandyman
         };
 
@@ -1785,33 +1739,28 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     }
 
     public void addParquetingItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"New Parqueting Installation",
+                "Parqueting Repair",
                 "Unknown Problems?"
         };
 
         String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection"
         };
 
         String[] serviceTime = {"Time: Upon Inspection",
                 "Time: Upon Inspection",
-                "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Expert installation of beautiful new parquet flooring.",
+                "Professional parqueting repair services to restore the beauty and functionality of flooring.",
+                "A highly experienced handyman in Parqueting installation and repair will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.parqueting,
+                R.drawable.parquetingrepair,
                 R.drawable.experthandyman
         };
 
@@ -1821,34 +1770,34 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
 
     //Gardening Related Services
     public void addGardeningItems() {
-        String[] serviceName = {"",
-                "",
-                "",
-                "Unknown Problems?"
+        String[] serviceName = {"Garden Maintenance",
+                "Garden Design",
+                "Garden Setup",
+                "Looking For Something Else?"
         };
 
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
+        String[] serviceCost = {"Estimated Price: Rs. 1500 Per Garden",
                 "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection",
                 "Estimated Price: Upon Inspection"
         };
 
-        String[] serviceTime = {"Time: Upon Inspection",
+        String[] serviceTime = {"Time: 12 hrs",
                 "Time: Upon Inspection",
                 "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"The service is provided by one maintenance person for entire day(The price may increase with number of maintenance person and days).",
+                "2D and 3D designs for the garden.",
+                "Setting up a new garden from a highly experienced gardener.",
+                "A highly experienced Gardener will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
-                R.drawable.experthandyman
+        int[] imagePath =  {R.drawable.gardenmaintanence,
+                R.drawable.design,
+                R.drawable.gardensetup,
+                R.drawable.gardenerprofessional
         };
 
         showItems(serviceName,serviceCost,serviceTime,serviceDesc,imagePath);
@@ -1857,34 +1806,44 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
 
     //Health at Home Related Services
     public void addHealthHomeItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Dengue Test",
+                "Covid-19 Test",
+                "Blood Test",
+                "Urine Test",
+                "Stool Test",
                 "Unknown Problems?"
         };
 
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
+        String[] serviceCost = {"Estimated Price: Rs. 1500 Per Test",
+                "Estimated Price: Rs. 1500 Per Test",
+                "Estimated Price: Depends on Type of Test",
+                "Estimated Price: Depends on Type of Test",
+                "Estimated Price: Depends on Type of Test",
                 "Estimated Price: Upon Inspection"
         };
 
         String[] serviceTime = {"Time: Upon Inspection",
                 "Time: Upon Inspection",
                 "Time: Upon Inspection",
+                "Time: Upon Inspection",
+                "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"The service typically involves a healthcare professional or a testing kit being dispatched to the individual's location.",
+                "The service typically involves a healthcare professional or a testing kit being dispatched to the individual's location.",
+                "The service typically involves a healthcare professional or a testing kit being dispatched to the individual's location.",
+                "The service typically involves a healthcare professional or a testing kit being dispatched to the individual's location.",
+                "The service typically involves a healthcare professional or a testing kit being dispatched to the individual's location.",
+                "A highly experienced healthcare professional will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
-                R.drawable.experthandyman
+        int[] imagePath =  {R.drawable.denguetest,
+                R.drawable.covidtest,
+                R.drawable.bloodtest,
+                R.drawable.urinetest,
+                R.drawable.stooltest,
+                R.drawable.helathcareprofessionals
         };
 
         showItems(serviceName,serviceCost,serviceTime,serviceDesc,imagePath);
@@ -1893,68 +1852,68 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
 
     //Home Salon Service
     public void addSalonItems() {
-        String[] serviceName = {"",
-                "",
-                "",
-                "Unknown Problems?"
+        String[] serviceName = {"Bridal Package",
+                "Hair Care",
+                "Nail Care",
+                "MakeUp",
+                "Looking For Something Else?"
         };
 
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
+        String[] serviceCost = {"Estimated Price: Rs. 16000 Per Person",
+                "Estimated Price: Rs. 1500 Per Person",
+                "Estimated Price: Rs. 3000 Per Person",
+                "Estimated Price: Rs. 3000 to 5000 Per Person",
                 "Estimated Price: Upon Inspection"
         };
 
-        String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
+        String[] serviceTime = {"Time: 2 hrs",
+                "Time: 2 hrs",
+                "Time: 4 hrs",
                 "Time: Upon Inspection",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Services such as Bridal makeup, hairstyle,and saree draping will be provided.",
+                "Styling Hair according to occasion (Price may depend on the hairstyle).",
+                "Stylish and attractive nail care and extension.",
+                "Simple party makeup or photoshop makeup.",
+                "A highly experienced Makeup artist will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
-                R.drawable.experthandyman
+        int[] imagePath =  {R.drawable.bridalmakeup,
+                R.drawable.haircare,
+                R.drawable.nailcare,
+                R.drawable.makeup,
+                R.drawable.makeupartist
         };
 
         showItems(serviceName,serviceCost,serviceTime,serviceDesc,imagePath);
     }
 
     public void addSpaItems() {
-        String[] serviceName = {"",
-                "",
-                "",
-                "Unknown Problems?"
+        String[] serviceName = {"Hair Massage",
+                "Body Massage",
+                "Looking For Something Else?"
         };
 
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
+        String[] serviceCost = {"Estimated Price: Rs. 750 Per 45 minutes",
+                "Estimated Price: Rs. 2000 Per Person",
                 "Estimated Price: Upon Inspection"
         };
 
-        String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection",
+        String[] serviceTime = {"Time: 45 minutes",
+                "Time: 1 hrs",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Our skilled therapists will provide a soothing scalp massage, promoting blood circulation and relieving stress.",
+                "Our skilled therapists will bring the spa experience to your doorstep, providing soothing and rejuvenating massages that melt away stress and tension.",
+                "A highly experienced Therapists will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
-                R.drawable.experthandyman
+        int[] imagePath =  {R.drawable.hairmassage,
+                R.drawable.spaforwomen,
+                R.drawable.therepist
         };
 
         showItems(serviceName,serviceCost,serviceTime,serviceDesc,imagePath);
@@ -1963,34 +1922,44 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
 
     //Laundry Services
     public void addLaundryItems() {
-        String[] serviceName = {"",
-                "",
-                "",
-                "Unknown Problems?"
+        String[] serviceName = {"Express Wash",
+                "Normal Clothes",
+                "Heavy Clothes",
+                "Household Clothes",
+                "Party Wear",
+                "Looking For Something Else?"
         };
 
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
+        String[] serviceCost = {"Estimated Price: Rs. 1000 Per 5Kgs",
+                "Estimated Price: Rs. 40 Per Pc",
+                "Estimated Price: Rs. 150 to 270 Per Pc",
+                "Estimated Price: Rs. 500 Per 5Kgs",
+                "Estimated Price: Rs. 150 to 350 Per Pc",
                 "Estimated Price: Upon Inspection"
         };
 
-        String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection",
+        String[] serviceTime = {"Time: 8 hrs",
+                "Time: 48 hrs",
+                "Time: 48 hrs",
+                "Time: 48 hrs",
+                "Time: 48 hrs",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Fast and efficient laundry service including dry cleaning, ironing, and folding.",
+                "Laundry service for T-shirt, Pant, Shirt including dry cleaning, ironing, and folding.",
+                "Laundry service for Down, Silicon, Woolen Jackets including dry cleaning, ironing, and folding.",
+                "Laundry service for Bed Sheet, Blanket Cover, Pillow Case, Curtains, and Single & Double Fiber Blanket including dry cleaning, ironing, and folding.",
+                "Laundry service for Suit, Daura Suruwal, Lehenga, Kurthi, Saree including dry cleaning, ironing, and folding.",
+                "A highly experienced Laundry washer will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
-                R.drawable.experthandyman
+        int[] imagePath =  {R.drawable.fastwashlaundy,
+                R.drawable.normallaundry,
+                R.drawable.downjaket,
+                R.drawable.bedhseetlaundry,
+                R.drawable.suitlaundry,
+                R.drawable.laundryperson
         };
 
         showItems(serviceName,serviceCost,serviceTime,serviceDesc,imagePath);
@@ -1999,33 +1968,28 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
 
     //Movers & Packers Services
     public void addMoversItems() {
-        String[] serviceName = {"",
-                "",
-                "",
-                "Unknown Problems?"
+        String[] serviceName = {"Residential Shifting",
+                "Corporate Shifting",
+                "Looking For Something Else?"
         };
 
-        String[] serviceCost = {"Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
-                "Estimated Price: Upon Inspection",
+        String[] serviceCost = {"Estimated Price: Rs. 4300 Per Trip excluding Packaging charge",
+                "Estimated Price: Rs. 4300 Per Trip excluding Packaging charge",
                 "Estimated Price: Upon Inspection"
         };
 
-        String[] serviceTime = {"Time: Upon Inspection",
-                "Time: Upon Inspection",
-                "Time: Upon Inspection",
+        String[] serviceTime = {"Time: 4 hrs",
+                "Time: 4 hrs",
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Shifting within 10KM range inside valley (Rs. 2000 extra charge on additional per KM).",
+                "Shifting within 10KM range inside valley (Rs. 2000 extra charge on additional per KM).",
+                "A highly experienced handyman in Packaging and Shifting will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
+        int[] imagePath =  {R.drawable.packermover,
+                R.drawable.packermover,
                 R.drawable.experthandyman
         };
 
@@ -2070,9 +2034,9 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
 
     //Pet Service
     public void addPetItems() {
-        String[] serviceName = {"",
-                "",
-                "",
+        String[] serviceName = {"Vaccination",
+                "General Checkup",
+                "Grooming",
                 "Unknown Problems?"
         };
 
@@ -2088,16 +2052,16 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
                 "Time: Upon Inspection"
         };
 
-        String[] serviceDesc = {"Repair or replacement.",
-                "Repair or replacement.",
-                "Repair or replacement.",
-                "A highly experienced handyman in inverter, batteries, & UPS repair will be sent as soon as possible."
+        String[] serviceDesc = {"Convenient in-home pet vaccinations done by very professional Vets.",
+                "Convenient veterinary care for your beloved pet, right at your doorstep.",
+                "Convenient in-home pet grooming service done based on given instructions.",
+                "A highly experienced Veterinarian will be sent as soon as possible."
         };
 
-        int[] imagePath =  {R.drawable.inverters,
-                R.drawable.batteriesinverter,
-                R.drawable.upsinverter,
-                R.drawable.experthandyman
+        int[] imagePath =  {R.drawable.vaccination,
+                R.drawable.generalcheckup,
+                R.drawable.grooming,
+                R.drawable.vetformypetdoctor
         };
 
         showItems(serviceName,serviceCost,serviceTime,serviceDesc,imagePath);

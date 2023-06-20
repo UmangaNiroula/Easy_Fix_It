@@ -20,8 +20,7 @@ public class ServiceOptionCarpentry extends BottomSheetDialogFragment implements
     private CardView sofa;
     private CardView aluminium;
     private CardView glass;
-    private CardView upvc;
-    private CardView toughened;
+
 
     public ServiceOptionCarpentry() {
         // Required empty public constructor
@@ -45,8 +44,7 @@ public class ServiceOptionCarpentry extends BottomSheetDialogFragment implements
         sofa = view.findViewById(R.id.sofa);
         aluminium = view.findViewById(R.id.aluminium);
         glass = view.findViewById(R.id.glass);
-        upvc = view.findViewById(R.id.upvc);
-        toughened = view.findViewById(R.id.toughened);
+
 
     }
 
@@ -56,8 +54,7 @@ public class ServiceOptionCarpentry extends BottomSheetDialogFragment implements
         sofa.setOnClickListener(this);
         aluminium.setOnClickListener(this);
         glass.setOnClickListener(this);
-        upvc.setOnClickListener(this);
-        toughened.setOnClickListener(this);
+
 
     }
 
@@ -85,17 +82,6 @@ public class ServiceOptionCarpentry extends BottomSheetDialogFragment implements
 
             case R.id.glass:
                 intent.putExtra("listen", "Glass Glazing Services");
-                startActivity(intent);
-                break;
-
-            case R.id.upvc:
-
-                intent.putExtra("listen", "UPVC Services");
-                startActivity(intent);
-                break;
-
-            case R.id.toughened:
-                intent.putExtra("listen", "Toughened Glass Services");
                 startActivity(intent);
                 break;
 

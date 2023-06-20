@@ -55,7 +55,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="11dp"
                 android:layout_marginEnd="27dp"
-                android:backgroundTint="#124EBA"
+                android:backgroundTint="#014388"
                 android:text="Book Service" />
 
             <Button
@@ -66,7 +66,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="27dp"
                 android:layout_marginTop="11dp"
-                android:backgroundTint="#F65625"
+                android:backgroundTint="#E46138"
                 android:paddingLeft="40dp"
                 android:paddingRight="40dp"
                 android:text="Return" />

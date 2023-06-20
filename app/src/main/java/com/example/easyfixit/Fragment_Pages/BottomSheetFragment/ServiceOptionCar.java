@@ -39,7 +39,7 @@ public class ServiceOptionCar extends BottomSheetDialogFragment implements View.
     private void assignObject(View view) {
 
         driver = view.findViewById(R.id.driver);
-        carWash = view.findViewById(R.id.fridge);
+        carWash = view.findViewById(R.id.carWash);
 
     }
 
