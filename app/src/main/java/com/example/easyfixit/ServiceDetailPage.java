@@ -14,7 +14,8 @@ import android.widget.Toast;
 
 import com.example.easyfixit.Adaptation.MyAdapter;
 import com.example.easyfixit.Interface.SelectListener;
-import com.example.easyfixit.ServiceDetails.Item;
+import com.example.easyfixit.ListPage.Item;
+import com.example.easyfixit.ListPage.ProductItem;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -2080,5 +2081,10 @@ public class ServiceDetailPage extends AppCompatActivity implements SelectListen
     @Override
     public void onItemClicked(Item item) {
         Toast.makeText(this, item.getServiceName(), Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onItemClicked(ProductItem item) {
+
     }
 }

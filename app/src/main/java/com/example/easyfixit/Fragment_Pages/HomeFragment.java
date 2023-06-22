@@ -2,6 +2,7 @@ package com.example.easyfixit.Fragment_Pages;
 
 
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -12,6 +13,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
@@ -31,7 +33,9 @@ import com.example.easyfixit.Fragment_Pages.BottomSheetFragment.ServiceOptionMov
 import com.example.easyfixit.Fragment_Pages.BottomSheetFragment.ServiceOptionPainting;
 import com.example.easyfixit.Fragment_Pages.BottomSheetFragment.ServiceOptionSalon;
 import com.example.easyfixit.Fragment_Pages.BottomSheetFragment.ServiceOptionVet;
+import com.example.easyfixit.ProductSaleDescription;
 import com.example.easyfixit.R;
+import com.example.easyfixit.ServiceDetailPage;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -58,6 +62,16 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
     private CardView gardeningService;
     private CardView moversService;
     private CardView salonService;
+
+    private ImageView eventManagementServiceImage;
+    private ImageView laundryServiceImage;
+    private ImageView driverOnCallServiceImage;
+    private ImageView photographyServiceImage;
+
+    private ImageView solarProduct;
+    private ImageView gyserProduct;
+    private ImageView basinProduct;
+    private ImageView purifierProduct;
 
     public HomeFragment() {
         // Required empty public constructor
@@ -104,6 +118,14 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         gardeningService = view.findViewById(R.id.gardeningService);
         moversService = view.findViewById(R.id.moversService);
         salonService = view.findViewById(R.id.salonService);
+        eventManagementServiceImage = view.findViewById(R.id.eventManagementServiceImage);
+        laundryServiceImage = view.findViewById(R.id.laundryServiceImage);
+        driverOnCallServiceImage = view.findViewById(R.id.driverOnCallServiceImage);
+        photographyServiceImage = view.findViewById(R.id.photographyServiceImage);
+        solarProduct = view.findViewById(R.id.solarProduct);
+        gyserProduct = view.findViewById(R.id.gyserProduct);
+        basinProduct = view.findViewById(R.id.basinProduct);
+        purifierProduct = view.findViewById(R.id.purifierProduct);
     }
 
     private void clickOnServiceAction() {
@@ -123,7 +145,14 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         gardeningService.setOnClickListener(this);
         moversService.setOnClickListener(this);
         salonService.setOnClickListener(this);
-
+        eventManagementServiceImage.setOnClickListener(this);
+        laundryServiceImage.setOnClickListener(this);
+        driverOnCallServiceImage.setOnClickListener(this);
+        photographyServiceImage.setOnClickListener(this);
+        solarProduct.setOnClickListener(this);
+        gyserProduct.setOnClickListener(this);
+        basinProduct.setOnClickListener(this);
+        purifierProduct.setOnClickListener(this);
     }
 
 
@@ -146,6 +175,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
+
+        Intent intent = new Intent(requireContext(), ServiceDetailPage.class);
+        Intent intentNew = new Intent(requireContext(), ProductSaleDescription.class);
 
         switch (v.getId()) {
 
@@ -224,6 +256,46 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
             case R.id.salonService:
                 ServiceOptionSalon bottomSheetFragmentSalon = new ServiceOptionSalon();
                 bottomSheetFragmentSalon.show(getChildFragmentManager(), bottomSheetFragmentSalon.getTag());
+                break;
+
+            case R.id.eventManagementServiceImage:
+                intent.putExtra("listen", "Event Management Services");
+                startActivity(intent);
+                break;
+
+            case R.id.laundryServiceImage:
+                intent.putExtra("listen", "Laundry Services");
+                startActivity(intent);
+                break;
+
+            case R.id.driverOnCallServiceImage:
+                intent.putExtra("listen", "Driver Services");
+                startActivity(intent);
+                break;
+
+            case R.id.photographyServiceImage:
+                intent.putExtra("listen", "Photo & Video Services");
+                startActivity(intent);
+                break;
+
+            case R.id.solarProduct:
+                intentNew.putExtra("listen", "Solar Water Heater");
+                startActivity(intentNew);
+                break;
+
+            case R.id.gyserProduct:
+                intentNew.putExtra("listen", "Sizzle Electric Geyser");
+                startActivity(intentNew);
+                break;
+
+            case R.id.basinProduct:
+                intentNew.putExtra("listen", "Wash Basin");
+                startActivity(intentNew);
+                break;
+
+            case R.id.purifierProduct:
+                intentNew.putExtra("listen", "Water Purifier");
+                startActivity(intentNew);
                 break;
 
         }

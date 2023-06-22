@@ -125,7 +125,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/imageView18"
+                        android:id="@+id/laundryServiceImage"
                         android:layout_width="63dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -152,7 +152,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/imageView19"
+                        android:id="@+id/driverOnCallServiceImage"
                         android:layout_width="63dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -178,7 +178,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/imageView20"
+                        android:id="@+id/photographyServiceImage"
                         android:layout_width="63dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"

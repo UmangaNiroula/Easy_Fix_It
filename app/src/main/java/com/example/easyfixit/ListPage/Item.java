@@ -1,4 +1,4 @@
-package com.example.easyfixit.ServiceDetails;
+package com.example.easyfixit.ListPage;
 
 public class Item {
 

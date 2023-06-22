@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.easyfixit.Interface.SelectListener;
 import com.example.easyfixit.R;
-import com.example.easyfixit.ServiceDetails.Item;
+import com.example.easyfixit.ListPage.Item;
 import com.example.easyfixit.View_Holder.MyViewHolder;
 
 import java.util.List;

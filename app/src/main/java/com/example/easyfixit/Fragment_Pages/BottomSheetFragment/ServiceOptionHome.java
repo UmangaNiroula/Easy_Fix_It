@@ -8,16 +8,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.cardview.widget.CardView;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.easyfixit.R;
 import com.example.easyfixit.ServiceDetailPage;
-import com.example.easyfixit.ServiceDetails.Item;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
-
-import java.util.ArrayList;
-import java.util.List;
 
 
 public class ServiceOptionHome extends BottomSheetDialogFragment implements View.OnClickListener{

@@ -16,6 +16,9 @@
         android:theme="@style/NewTheme"
         tools:targetApi="31">
         <activity
+            android:name=".ProductSaleDescription"
+            android:exported="false" />
+        <activity
             android:name=".ServiceDetailPage"
             android:exported="false" />
         <activity
