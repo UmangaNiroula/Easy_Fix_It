@@ -104,7 +104,7 @@ public class ProductSaleDescription extends AppCompatActivity implements View.On
 
         if(v.getId() ==  R.id.cancelProduct)
         {
-            Intent cancel = new Intent(ProductSaleDescription.this,HomeFragment.class);
+            Intent cancel = new Intent(ProductSaleDescription.this,HomePage.class);
             startActivity(cancel);
         }
 

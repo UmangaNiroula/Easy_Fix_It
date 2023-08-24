@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-black"
-        android:text="Movers &amp; Packers Service"
+        android:text="@string/movers_amp_packers_service"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,14 +45,15 @@
                     android:id="@+id/imageView7"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/packermover" />
+                    app:srcCompat="@drawable/packermover"
+                    android:contentDescription="@string/movers_amp_packers" />
 
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Movers &amp; Packers"
+                    android:text="@string/movers_amp_packers"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>

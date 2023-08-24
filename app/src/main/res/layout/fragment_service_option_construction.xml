@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-black"
-        android:text="Construction &amp; Renovation Services"
+        android:text="@string/construction_amp_renovation_services"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,14 +44,15 @@
                     android:id="@+id/imageView7"
                     android:layout_width="70dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/designs" />
+                    app:srcCompat="@drawable/designs"
+                    android:contentDescription="@string/engineering_design" />
 
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="70dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Engineering Design"
+                    android:text="@string/engineering_design"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -72,14 +73,15 @@
                     android:id="@+id/imageView8"
                     android:layout_width="72dp"
                     android:layout_height="60dp"
-                    android:src="@drawable/constructionhouse" />
+                    android:src="@drawable/constructionhouse"
+                    android:contentDescription="@string/new_house_construction" />
 
                 <TextView
                     android:id="@+id/textView20"
                     android:layout_width="72dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="New House Construction"
+                    android:text="@string/new_house_construction"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -100,14 +102,15 @@
                     android:id="@+id/imageView9"
                     android:layout_width="72dp"
                     android:layout_height="60dp"
-                    android:src="@drawable/ronovation" />
+                    android:src="@drawable/ronovation"
+                    android:contentDescription="@string/home_renovation" />
 
                 <TextView
                     android:id="@+id/textView25"
                     android:layout_width="72dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Home Renovation"
+                    android:text="@string/home_renovation"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -142,14 +145,15 @@
                     android:id="@+id/imageView71"
                     android:layout_width="70dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/masonry" />
+                    app:srcCompat="@drawable/masonry"
+                    android:contentDescription="@string/masonry_service" />
 
                 <TextView
                     android:id="@+id/textView41"
                     android:layout_width="70dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Masonry Service"
+                    android:text="@string/masonry_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -171,14 +175,15 @@
                     android:id="@+id/imageView72"
                     android:layout_width="72dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/waterproofing" />
+                    app:srcCompat="@drawable/waterproofing"
+                    android:contentDescription="@string/water_proofing" />
 
                 <TextView
                     android:id="@+id/textView42"
                     android:layout_width="72dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Water Proofing"
+                    android:text="@string/water_proofing"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -200,14 +205,15 @@
                     android:id="@+id/imageView73"
                     android:layout_width="72dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/parqueting" />
+                    app:srcCompat="@drawable/parqueting"
+                    android:contentDescription="@string/parqueting_service" />
 
                 <TextView
                     android:id="@+id/textView43"
                     android:layout_width="72dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Parqueting Service"
+                    android:text="@string/parqueting_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 

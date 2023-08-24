@@ -14,7 +14,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_baseline_circle_24" />
+        app:srcCompat="@drawable/ic_baseline_circle_24"
+        android:contentDescription="@string/circles_background" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -23,7 +24,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/downimg" />
+        app:srcCompat="@drawable/downimg"
+        android:contentDescription="@string/bottom_image" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -42,7 +44,8 @@
             android:layout_marginTop="10dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/close" />
+            app:srcCompat="@drawable/close"
+            android:contentDescription="@string/exit_btn" />
 
         <TextView
             android:id="@+id/textView"
@@ -50,8 +53,8 @@
             android:layout_height="24dp"
             android:layout_marginTop="40dp"
             android:fontFamily="@font/archivo_semibold"
-            android:paddingLeft="25dp"
-            android:text="Enter your code sent to "
+            android:paddingStart="25dp"
+            android:text="@string/enter_your_code_sent_to"
             android:textColor="#000000"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -63,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:fontFamily="@font/archivo_bold"
-            android:text="9843805222"
+            android:text="@string/_9843805222"
             android:textColor="#000000"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -95,14 +98,14 @@
                 android:maxLength="1"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                tools:ignore="LabelFor" />
+                tools:ignore="LabelFor"
+                android:hint="@string/hint_otp"/>
 
             <EditText
                 android:id="@+id/inputotp2"
                 android:layout_width="55dp"
                 android:layout_height="70dp"
                 android:layout_marginStart="4dp"
-                android:layout_marginLeft="4dp"
                 android:background="@drawable/pinbackgroundbox"
                 android:gravity="center"
                 android:imeOptions="actionNext"
@@ -111,13 +114,14 @@
                 android:maxLength="1"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                tools:ignore="LabelFor" />
+                tools:ignore="LabelFor"
+                android:hint="@string/hint_otp"/>
 
             <EditText
                 android:id="@+id/inputotp3"
                 android:layout_width="55dp"
                 android:layout_height="70dp"
-                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
                 android:background="@drawable/pinbackgroundbox"
                 android:gravity="center"
                 android:imeOptions="actionNext"
@@ -126,13 +130,14 @@
                 android:maxLength="1"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                tools:ignore="LabelFor" />
+                tools:ignore="LabelFor"
+                android:hint="@string/hint_otp"/>
 
             <EditText
                 android:id="@+id/inputotp4"
                 android:layout_width="55dp"
                 android:layout_height="70dp"
-                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
                 android:background="@drawable/pinbackgroundbox"
                 android:gravity="center"
                 android:imeOptions="actionNext"
@@ -141,13 +146,14 @@
                 android:maxLength="1"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                tools:ignore="LabelFor" />
+                tools:ignore="LabelFor"
+                android:hint="@string/hint_otp"/>
 
             <EditText
                 android:id="@+id/inputotp5"
                 android:layout_width="55dp"
                 android:layout_height="70dp"
-                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
                 android:background="@drawable/pinbackgroundbox"
                 android:gravity="center"
                 android:imeOptions="actionNext"
@@ -156,13 +162,14 @@
                 android:maxLength="1"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                tools:ignore="LabelFor" />
+                tools:ignore="LabelFor"
+                android:hint="@string/hint_otp"/>
 
             <EditText
                 android:id="@+id/inputotp6"
                 android:layout_width="55dp"
                 android:layout_height="70dp"
-                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
                 android:background="@drawable/pinbackgroundbox"
                 android:gravity="center"
                 android:imeOptions="actionNext"
@@ -171,7 +178,8 @@
                 android:maxLength="1"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                tools:ignore="LabelFor" />
+                tools:ignore="LabelFor"
+                android:hint="@string/hint_otp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -190,7 +198,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/roboto_bold"
-                android:text="Didn't recieve code? "
+                android:text="@string/didn_t_receive_code"
                 android:textColor="#000000"
                 android:textSize="16sp" />
 
@@ -200,7 +208,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/roboto_bold"
-                android:text="Resend"
+                android:text="@string/resend_btn"
                 android:textColor="#E46138"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -215,7 +223,7 @@
             android:paddingTop="12dp"
             android:paddingRight="30dp"
             android:paddingBottom="12dp"
-            android:text="Submit"
+            android:text="@string/submit_btn"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             app:cornerRadius="20dp"

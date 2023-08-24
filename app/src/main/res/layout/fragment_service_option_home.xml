@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-black"
-        android:text="House Repair Services"
+        android:text="@string/house_repair_services"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,14 +45,15 @@
                     android:id="@+id/imageView7"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/plumbing" />
+                    app:srcCompat="@drawable/plumbing"
+                    android:contentDescription="@string/plumbing_service" />
 
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Plumbing Service"
+                    android:text="@string/plumbing_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -73,14 +74,15 @@
                     android:id="@+id/imageView8"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:src="@drawable/electrical" />
+                    android:src="@drawable/electrical"
+                    android:contentDescription="@string/electrical_service" />
 
                 <TextView
                     android:id="@+id/textView20"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Electrical Service"
+                    android:text="@string/electrical_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -101,14 +103,15 @@
                     android:id="@+id/imageView9"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:src="@drawable/motor" />
+                    android:src="@drawable/motor"
+                    android:contentDescription="@string/motor_service" />
 
                 <TextView
                     android:id="@+id/textView25"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Motor Service"
+                    android:text="@string/motor_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -142,14 +145,15 @@
                     android:id="@+id/imageView71"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/metal" />
+                    app:srcCompat="@drawable/metal"
+                    android:contentDescription="@string/metal_service" />
 
                 <TextView
                     android:id="@+id/textView41"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Metal Service"
+                    android:text="@string/metal_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -178,7 +182,7 @@
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Generator Service"
+                    android:text="@string/generator_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -200,14 +204,15 @@
                     android:id="@+id/imageView73"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/chimney" />
+                    app:srcCompat="@drawable/chimney"
+                    android:contentDescription="@string/chimney_service" />
 
                 <TextView
                     android:id="@+id/textView43"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Chimney Service"
+                    android:text="@string/chimney_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -242,14 +247,15 @@
                     android:id="@+id/imageView74"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/inverters" />
+                    app:srcCompat="@drawable/inverters"
+                    android:contentDescription="@string/inverter_batteries_amp_ups_service" />
 
                 <TextView
                     android:id="@+id/textView44"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Inverter, Batteries &amp; UPS Service"
+                    android:text="@string/inverter_batteries_amp_ups_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -273,14 +279,15 @@
                     android:id="@+id/imageView70"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/plumbing" />
+                    app:srcCompat="@drawable/plumbing"
+                    android:contentDescription="TODO" />
 
                 <TextView
                     android:id="@+id/textView40"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Plumbing Service"
+                    android:text="@string/plumbing_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -304,14 +311,15 @@
                     android:id="@+id/imageView781"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/plumbing" />
+                    app:srcCompat="@drawable/plumbing"
+                    android:contentDescription="TODO" />
 
                 <TextView
                     android:id="@+id/textView481"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Plumbing Service"
+                    android:text="@string/plumbing_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 

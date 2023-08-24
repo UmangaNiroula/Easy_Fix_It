@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-black"
-        android:text="Carpentry &amp; Aluminum Services"
+        android:text="@string/carpentry_amp_aluminum_services"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,14 +45,15 @@
                     android:id="@+id/imageView7"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/carpentry" />
+                    app:srcCompat="@drawable/carpentry"
+                    android:contentDescription="@string/carpentry_service" />
 
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Carpentry Service"
+                    android:text="@string/carpentry_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -73,14 +74,15 @@
                     android:id="@+id/imageView8"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:src="@drawable/sofa" />
+                    android:src="@drawable/sofa"
+                    android:contentDescription="@string/sofa_repair" />
 
                 <TextView
                     android:id="@+id/textView20"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Sofa Repair"
+                    android:text="@string/sofa_repair"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -101,14 +103,15 @@
                     android:id="@+id/imageView9"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:src="@drawable/aluminum" />
+                    android:src="@drawable/aluminum"
+                    android:contentDescription="@string/aluminium_service" />
 
                 <TextView
                     android:id="@+id/textView25"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Aluminium Service"
+                    android:text="@string/aluminium_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -143,14 +146,15 @@
                     android:id="@+id/imageView71"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/glass" />
+                    app:srcCompat="@drawable/glass"
+                    android:contentDescription="@string/glass_glazing" />
 
                 <TextView
                     android:id="@+id/textView41"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Glass Glazing"
+                    android:text="@string/glass_glazing"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -173,14 +177,15 @@
                     android:id="@+id/imageView72"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/upvc" />
+                    app:srcCompat="@drawable/upvc"
+                    android:contentDescription="" />
 
                 <TextView
                     android:id="@+id/textView42"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="UPVC Service"
+                    android:text="@string/upvc_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -203,14 +208,15 @@
                     android:id="@+id/imageView73"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/toughened" />
+                    app:srcCompat="@drawable/toughened"
+                    android:contentDescription="" />
 
                 <TextView
                     android:id="@+id/textView43"
                     android:layout_width="63dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Toughened Glass"
+                    android:text="@string/toughened_glass"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 

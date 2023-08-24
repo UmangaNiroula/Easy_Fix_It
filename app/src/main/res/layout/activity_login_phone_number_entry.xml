@@ -14,7 +14,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_baseline_circle_24" />
+        app:srcCompat="@drawable/ic_baseline_circle_24"
+        android:contentDescription="@string/circles_background" />
 
     <ImageView
         android:id="@+id/imageView11"
@@ -23,7 +24,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/downimg" />
+        app:srcCompat="@drawable/downimg"
+        android:contentDescription="@string/bottom_image" />
 
     <ImageView
         android:id="@+id/mainLogo"
@@ -34,14 +36,15 @@
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/logo_of_easy_fix_it" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/phoneNumberEnter"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:hint="Phone Number"
+        android:hint="@string/phone_number_login"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:textColorHint="#00346A"
@@ -87,7 +90,7 @@
         android:paddingTop="12dp"
         android:paddingRight="30dp"
         android:paddingBottom="12dp"
-        android:text="Continue"
+        android:text="@string/continueBtn"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
@@ -102,7 +105,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat_medium"
-        android:text="All Rounder Handyman Services"
+        android:text="@string/all_rounder_handyman_services"
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"

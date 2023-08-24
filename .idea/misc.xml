@@ -28,7 +28,7 @@
         <entry key="app/src/main/res/drawable/search.xml" value="0.199" />
         <entry key="app/src/main/res/layout/activity_bottom_sub_option.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.2543822146216332" />
-        <entry key="app/src/main/res/layout/activity_login_phone_number_entry.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login_phone_number_entry.xml" value="0.32657623291015625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.27136516466818217" />
         <entry key="app/src/main/res/layout/activity_main_page.xml" value="0.2986262252964207" />
         <entry key="app/src/main/res/layout/activity_otp_code.xml" value="0.14051094890510948" />
@@ -37,7 +37,7 @@
         <entry key="app/src/main/res/layout/fragment_booking.xml" value="0.15841064453125" />
         <entry key="app/src/main/res/layout/fragment_current.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/fragment_history.xml" value="0.2543822146216332" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.3727275403150384" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.3434599156118143" />
         <entry key="app/src/main/res/layout/fragment_products.xml" value="0.2438446044921875" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.3473052978515625" />
         <entry key="app/src/main/res/layout/fragment_service_option.xml" value="0.24783935546875002" />

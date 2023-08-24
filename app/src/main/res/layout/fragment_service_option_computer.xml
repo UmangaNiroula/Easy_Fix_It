@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-black"
-        android:text="Computer Repair Services"
+        android:text="@string/computer_repair_services"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,14 +44,15 @@
                     android:id="@+id/imageView7"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/pabx" />
+                    app:srcCompat="@drawable/pabx"
+                    android:contentDescription="@string/pabx_service" />
 
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="PABX Service"
+                    android:text="@string/pabx_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -72,14 +73,15 @@
                     android:id="@+id/imageView8"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:src="@drawable/computerrepairservice" />
+                    android:src="@drawable/computerrepairservice"
+                    android:contentDescription="@string/computer_service" />
 
                 <TextView
                     android:id="@+id/textView20"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Computer Service"
+                    android:text="@string/computer_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -100,14 +102,15 @@
                     android:id="@+id/imageView9"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:src="@drawable/printerrepair" />
+                    android:src="@drawable/printerrepair"
+                    android:contentDescription="@string/printer_service" />
 
                 <TextView
                     android:id="@+id/textView25"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Printer Service"
+                    android:text="@string/printer_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -142,14 +145,15 @@
                     android:id="@+id/imageView71"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/networking" />
+                    app:srcCompat="@drawable/networking"
+                    android:contentDescription="@string/networking_service" />
 
                 <TextView
                     android:id="@+id/textView41"
                     android:layout_width="65dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Networking Service"
+                    android:text="@string/networking_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -172,14 +176,15 @@
                     android:id="@+id/imageView72"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/generator" />
+                    app:srcCompat="@drawable/generator"
+                    android:contentDescription="TODO" />
 
                 <TextView
                     android:id="@+id/textView42"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Generator Service"
+                    android:text="@string/generator_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -202,14 +207,15 @@
                     android:id="@+id/imageView73"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/chimney" />
+                    app:srcCompat="@drawable/chimney"
+                    android:contentDescription="TODO" />
 
                 <TextView
                     android:id="@+id/textView43"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Chimney Service"
+                    android:text="@string/chimney_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 

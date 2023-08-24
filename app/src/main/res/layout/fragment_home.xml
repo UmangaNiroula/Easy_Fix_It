@@ -75,7 +75,7 @@
                     android:gravity="center"
                     android:letterSpacing="0.12"
                     android:paddingTop="10dp"
-                    android:text="OUR SERVICES"
+                    android:text="@string/our_services"
                     android:textColor="#014388"
                     android:textSize="20sp" />
 
@@ -108,7 +108,8 @@
                                 android:id="@+id/imageView2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                app:srcCompat="@drawable/house" />
+                                app:srcCompat="@drawable/house"
+                                android:contentDescription="@string/house_repair_icon" />
 
                             <TextView
                                 android:id="@+id/textView6"
@@ -116,7 +117,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_bold"
                                 android:gravity="center"
-                                android:text="House Repair Service"
+                                android:text="@string/house_repair_service"
                                 android:textColor="#014388" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -143,7 +144,8 @@
                                 android:id="@+id/imageView112"
                                 android:layout_width="match_parent"
                                 android:layout_height="24dp"
-                                app:srcCompat="@drawable/ac" />
+                                app:srcCompat="@drawable/ac"
+                                android:contentDescription="@string/appliance_icon" />
 
                             <TextView
                                 android:id="@+id/textView116"
@@ -151,7 +153,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_bold"
                                 android:gravity="center"
-                                android:text="Appliance Servicing"
+                                android:text="@string/appliance_servicing"
                                 android:textColor="#014388"
                                 android:textSize="14sp" />
                         </LinearLayout>
@@ -178,7 +180,8 @@
                                 android:id="@+id/imageView6"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                app:srcCompat="@drawable/networkingnow" />
+                                app:srcCompat="@drawable/networkingnow"
+                                android:contentDescription="@string/computer_services" />
 
                             <TextView
                                 android:id="@+id/textView9"
@@ -186,8 +189,9 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_bold"
                                 android:gravity="center"
-                                android:text="Computer Services"
+                                android:text="@string/computer_services"
                                 android:textColor="#014388" />
+
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
 
@@ -220,7 +224,8 @@
                                 android:id="@+id/imageView4"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                app:srcCompat="@drawable/paint" />
+                                app:srcCompat="@drawable/paint"
+                                android:contentDescription="@string/painting_service" />
 
                             <TextView
                                 android:id="@+id/textView7"
@@ -228,7 +233,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_bold"
                                 android:gravity="center"
-                                android:text="Painting Service"
+                                android:text="@string/painting_service"
                                 android:textColor="#014388" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -252,7 +257,8 @@
                                 android:id="@+id/imageView116"
                                 android:layout_width="match_parent"
                                 android:layout_height="24dp"
-                                app:srcCompat="@drawable/housekeeping" />
+                                app:srcCompat="@drawable/housekeeping"
+                                android:contentDescription="@string/cleaning_amp_pest_control" />
 
                             <TextView
                                 android:id="@+id/textView119"
@@ -260,7 +266,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_bold"
                                 android:gravity="center"
-                                android:text="Cleaning &amp; Pest Control"
+                                android:text="@string/cleaning_amp_pest_control"
                                 android:textColor="#014388" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -284,7 +290,8 @@
                                 android:id="@+id/imageView16"
                                 android:layout_width="match_parent"
                                 android:layout_height="24dp"
-                                app:srcCompat="@drawable/constructing" />
+                                app:srcCompat="@drawable/constructing"
+                                android:contentDescription="@string/construction_amp_renovation" />
 
                             <TextView
                                 android:id="@+id/textView19"
@@ -292,7 +299,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_bold"
                                 android:gravity="center"
-                                android:text="Construction &amp; Renovation"
+                                android:text="@string/construction_amp_renovation"
                                 android:textColor="#014388" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -328,7 +335,8 @@
                                 android:id="@+id/imageView111112"
                                 android:layout_width="match_parent"
                                 android:layout_height="24dp"
-                                app:srcCompat="@drawable/homesalon" />
+                                app:srcCompat="@drawable/homesalon"
+                                android:contentDescription="@string/home_salon_service" />
 
                             <TextView
                                 android:id="@+id/textView111116"
@@ -336,7 +344,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_bold"
                                 android:gravity="center"
-                                android:text="Home Salon Service"
+                                android:text="@string/home_salon_service"
                                 android:textColor="#014388"
                                 android:textSize="14sp" />
                         </LinearLayout>
@@ -361,7 +369,8 @@
                                 android:id="@+id/imageView114"
                                 android:layout_width="match_parent"
                                 android:layout_height="24dp"
-                                app:srcCompat="@drawable/confetti" />
+                                app:srcCompat="@drawable/confetti"
+                                android:contentDescription="@string/party_celebration" />
 
                             <TextView
                                 android:id="@+id/textView117"
@@ -369,7 +378,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_bold"
                                 android:gravity="center"
-                                android:text="Party Celebration"
+                                android:text="@string/party_celebration"
                                 android:textColor="#014388" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -393,7 +402,8 @@
                                 android:id="@+id/imageView14"
                                 android:layout_width="match_parent"
                                 android:layout_height="24dp"
-                                app:srcCompat="@drawable/sawingman" />
+                                app:srcCompat="@drawable/sawingman"
+                                android:contentDescription="@string/carpentry_amp_aluminum" />
 
                             <TextView
                                 android:id="@+id/textView17"
@@ -401,7 +411,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_bold"
                                 android:gravity="center"
-                                android:text="Carpentry &amp; Aluminum"
+                                android:text="@string/carpentry_amp_aluminum"
                                 android:textColor="#014388" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -438,7 +448,8 @@
                                 android:id="@+id/imageView1112"
                                 android:layout_width="match_parent"
                                 android:layout_height="24dp"
-                                app:srcCompat="@drawable/washing" />
+                                app:srcCompat="@drawable/washing"
+                                android:contentDescription="@string/laundry_services" />
 
                             <TextView
                                 android:id="@+id/textView1116"
@@ -446,7 +457,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_bold"
                                 android:gravity="center"
-                                android:text="Laundry Services"
+                                android:text="@string/laundry_services"
                                 android:textColor="#014388"
                                 android:textSize="14sp" />
                         </LinearLayout>
@@ -471,7 +482,8 @@
                                 android:id="@+id/imageView1114"
                                 android:layout_width="match_parent"
                                 android:layout_height="24dp"
-                                app:srcCompat="@drawable/animal" />
+                                app:srcCompat="@drawable/animal"
+                                android:contentDescription="@string/vet_for_my_pet_services" />
 
                             <TextView
                                 android:id="@+id/textView1117"
@@ -479,7 +491,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_bold"
                                 android:gravity="center"
-                                android:text="Vet for My Pet Services"
+                                android:text="@string/vet_for_my_pet_services"
                                 android:textColor="#014388" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -503,7 +515,8 @@
                                 android:id="@+id/imageView1116"
                                 android:layout_width="match_parent"
                                 android:layout_height="24dp"
-                                app:srcCompat="@drawable/health" />
+                                app:srcCompat="@drawable/health"
+                                android:contentDescription="@string/health_at_home" />
 
                             <TextView
                                 android:id="@+id/textView1119"
@@ -511,7 +524,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_bold"
                                 android:gravity="center"
-                                android:text="Health at Home"
+                                android:text="@string/health_at_home"
                                 android:textColor="#014388" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -546,7 +559,8 @@
                                 android:id="@+id/imageView11112"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                app:srcCompat="@drawable/car" />
+                                app:srcCompat="@drawable/car"
+                                android:contentDescription="@string/car_related_services" />
 
                             <TextView
                                 android:id="@+id/textView11116"
@@ -554,7 +568,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_bold"
                                 android:gravity="center"
-                                android:text="Car Related Services"
+                                android:text="@string/car_related_services"
                                 android:textColor="#014388"
                                 android:textSize="14sp" />
                         </LinearLayout>
@@ -579,7 +593,8 @@
                                 android:id="@+id/imageView11114"
                                 android:layout_width="match_parent"
                                 android:layout_height="24dp"
-                                app:srcCompat="@drawable/gardening" />
+                                app:srcCompat="@drawable/gardening"
+                                android:contentDescription="@string/gardening_services" />
 
                             <TextView
                                 android:id="@+id/textView11117"
@@ -587,7 +602,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_bold"
                                 android:gravity="center"
-                                android:text="Gardening Services"
+                                android:text="@string/gardening_services"
                                 android:textColor="#014388" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -611,7 +626,8 @@
                                 android:id="@+id/imageView11116"
                                 android:layout_width="match_parent"
                                 android:layout_height="24dp"
-                                app:srcCompat="@drawable/loading" />
+                                app:srcCompat="@drawable/loading"
+                                android:contentDescription="@string/movers_amp_packers" />
 
                             <TextView
                                 android:id="@+id/textView11119"
@@ -619,7 +635,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/raleway_bold"
                                 android:gravity="center"
-                                android:text="Movers &amp; Packers"
+                                android:text="@string/movers_amp_packers"
                                 android:textColor="#014388" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -655,7 +671,7 @@
                     android:fontFamily="@font/baloo_tamma"
                     android:gravity="center"
                     android:letterSpacing="0.12"
-                    android:text="EXCLUSIVE HOT DEALS"
+                    android:text="@string/exclusive_hot_deals"
                     android:textColor="#014388"
                     android:textSize="20sp" />
 
@@ -679,28 +695,32 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/solarbanner" />
+                            app:srcCompat="@drawable/solarbanner"
+                            android:contentDescription="@string/solar_tube_deals" />
 
                         <ImageView
                             android:id="@+id/gyserProduct"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/gyeser" />
+                            app:srcCompat="@drawable/gyeser"
+                            android:contentDescription="@string/geyser_deals" />
 
                         <ImageView
                             android:id="@+id/basinProduct"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/basin" />
+                            app:srcCompat="@drawable/basin"
+                            android:contentDescription="@string/basin_deals" />
 
                         <ImageView
                             android:id="@+id/purifierProduct"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/filter" />
+                            app:srcCompat="@drawable/filter"
+                            android:contentDescription="@string/purifier_deals" />
                     </LinearLayout>
                 </HorizontalScrollView>
 
@@ -724,7 +744,7 @@
                     android:fontFamily="@font/baloo_tamma"
                     android:gravity="center"
                     android:letterSpacing="0.12"
-                    android:text="NEW SERVICE LAUNCHED"
+                    android:text="@string/new_service_launched"
                     android:textColor="#014388"
                     android:textSize="20sp" />
 
@@ -748,28 +768,32 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/event" />
+                            app:srcCompat="@drawable/event"
+                            android:contentDescription="@string/event_management" />
 
                         <ImageView
                             android:id="@+id/laundryServiceImage"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/laundry" />
+                            app:srcCompat="@drawable/laundry"
+                            android:contentDescription="@string/laundry_services" />
 
                         <ImageView
                             android:id="@+id/driverOnCallServiceImage"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/driver" />
+                            app:srcCompat="@drawable/driver"
+                            android:contentDescription="@string/driver_on_call_service" />
 
                         <ImageView
                             android:id="@+id/photographyServiceImage"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/photography" />
+                            app:srcCompat="@drawable/photography"
+                            android:contentDescription="@string/photography_and_videography_service" />
                     </LinearLayout>
                 </HorizontalScrollView>
 

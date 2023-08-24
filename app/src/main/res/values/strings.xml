@@ -1,7 +1,192 @@
 <resources>
     <string name="app_name">EASY FIX IT</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Login Phone Number Page -->
+    <string name="all_rounder_handyman_services">All Rounder Handyman Services</string>
+    <string name="continueBtn">Continue</string>
+    <string name="phone_number_login">Phone Number</string>
+    <string name="logo_of_easy_fix_it">Logo of Easy Fix It</string>
+    <string name="bottom_image">bottom image</string>
+    <string name="circles_background">circles background</string>
+    <!-- Login Phone Number Page -->
+
+
+    <!-- OTP Code Page -->
+    <string name="hint_otp">-</string>
+    <string name="exit_btn">exit_btn</string>
+    <string name="enter_your_code_sent_to">Enter your code sent to</string>
+    <string name="_9843805222">9843805222</string>
+    <string name="didn_t_receive_code">Didn\'t receive code?</string>
+    <string name="resend_btn">Resend</string>
+    <string name="submit_btn">Submit</string>
+    <!-- OTP Code Page -->
+
+
+    <!-- Home Page -->
+    <string name="our_services">OUR SERVICES</string>
+    <string name="house_repair_icon">House Repair Icon</string>
+    <string name="house_repair_service">House Repair Service</string>
+    <string name="appliance_icon">Appliance Icon</string>
+    <string name="appliance_servicing">Appliance Servicing</string>
+    <string name="computer_services">Computer Services</string>
+    <string name="painting_service">Painting Service</string>
+    <string name="cleaning_amp_pest_control"><![CDATA[Cleaning & Pest Control]]></string>
+    <string name="construction_amp_renovation"><![CDATA[Construction & Renovation]]></string>
+    <string name="home_salon_service">Home Salon Service</string>
+    <string name="party_celebration">Party Celebration</string>
+    <string name="carpentry_amp_aluminum"><![CDATA[Carpentry & Aluminum]]></string>
+    <string name="laundry_services">Laundry Services</string>
+    <string name="vet_for_my_pet_services">Vet for My Pet Services</string>
+    <string name="health_at_home">Health at Home</string>
+    <string name="car_related_services">Car Related Services</string>
+    <string name="gardening_services">Gardening Services</string>
+    <string name="movers_amp_packers"><![CDATA[Movers & Packers]]></string>
+    <string name="solar_tube_deals">Solar Tube Deals</string>
+    <string name="geyser_deals">Geyser Deals</string>
+    <string name="basin_deals">Basin Deals</string>
+    <string name="purifier_deals">Purifier Deals</string>
+    <string name="new_service_launched">NEW SERVICE LAUNCHED</string>
+    <string name="exclusive_hot_deals">EXCLUSIVE HOT DEALS</string>
+    <string name="event_management">Event Management</string>
+    <string name="driver_on_call_service">Driver on Call Service</string>
+    <string name="photography_and_videography_service">Photography and Videography Service</string>
+    <!-- Home Page -->
+
+
+    <!-- Booking Page -->
     <string name="current">Current</string>
     <string name="history">History</string>
+    <string name="no_history_booking_is_available">No history booking is available</string>
+    <string name="no_current_booking_available">No current booking available</string>
+    <!-- Booking Page -->
+
+
+    <!-- Profile Page -->
+    <string name="user_name">User Name</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="become_a_professional">Become A Professional</string>
+    <string name="tutorials">Tutorials</string>
+    <string name="about_us">About Us</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="privacy_policies">Privacy Policies</string>
+    <string name="logout">Logout</string>
+    <!-- Profile Page -->
+
+
+    <!-- Fragment Appliance Page -->
+    <string name="appliances_repair_services">Appliances Repair Services</string>
+    <string name="a_c_repair_service">A/C Repair Service</string>
+    <string name="fridge_service">Fridge Service</string>
+    <string name="solar_heater">Solar Heater</string>
+    <string name="washing_machine">Washing Machine</string>
+    <string name="oven_repair">Oven Repair</string>
+    <string name="t_v_repair_service">T/V Repair Service</string>
+    <string name="induction_repair">Induction Repair</string>
+    <string name="gas_stove_repair">Gas Stove Repair</string>
+    <string name="geyser_repair">Geyser Repair</string>
+    <!-- Fragment Appliance Page -->
+
+
+    <!-- Fragment Car Page -->
+    <string name="driver_on_call">Driver On Call</string>
+    <string name="car_wash_service">Car Wash Service</string>
+    <!-- Fragment Car Page -->
+
+
+    <!-- Fragment Carpentry Page -->
+    <string name="carpentry_amp_aluminum_services"><![CDATA[Carpentry & Aluminum Services]]></string>
+    <string name="carpentry_service">Carpentry Service</string>
+    <string name="sofa_repair">Sofa Repair</string>
+    <string name="aluminium_service">Aluminium Service</string>
+    <string name="glass_glazing">Glass Glazing</string>
+    <string name="upvc_service">UPVC Service</string>
+    <string name="toughened_glass">Toughened Glass</string>
+    <!-- Fragment Carpentry Page -->
+
+
+    <!-- Fragment Event Page -->
+    <string name="party_celebration_services">Party Celebration Services</string>
+    <string name="photo_amp_video_service"><![CDATA[Photo & Video Service]]></string>
+    <string name="cook_on_call_service">Cook On Call Service</string>
+    <string name="event_planner_service">Event Planner Service</string>
+    <!-- Fragment Event Page -->
+
+
+    <!-- Fragment Pest Control and Cleaning Page -->
+    <string name="cleaning_amp_pest_control_services"><![CDATA[Cleaning & Pest Control Services]]></string>
+    <string name="water_tank">Water Tank</string>
+    <string name="septic_tank">Septic Tank</string>
+    <string name="household_cleaning">Household Cleaning</string>
+    <string name="pest_control">Pest Control</string>
+    <string name="glass_cleaning">Glass Cleaning</string>
+    <!-- Fragment Pest Control and Cleaning Page -->
+
+
+    <!-- Fragment Computer Page -->
+    <string name="computer_repair_services">Computer Repair Services</string>
+    <string name="pabx_service">PABX Service</string>
+    <string name="computer_service">Computer Service</string>
+    <string name="printer_service">Printer Service</string>
+    <string name="networking_service">Networking Service</string>
+    <!-- Fragment Computer Page -->
+
+
+    <!-- Fragment Construction Page -->
+    <string name="construction_amp_renovation_services"><![CDATA[Construction & Renovation Services]]></string>
+    <string name="engineering_design">Engineering Design</string>
+    <string name="new_house_construction">New House Construction</string>
+    <string name="home_renovation">Home Renovation</string>
+    <string name="masonry_service">Masonry Service</string>
+    <string name="water_proofing">Water Proofing</string>
+    <string name="parqueting_service">Parqueting Service</string>
+    <!-- Fragment Construction Page -->
+
+
+    <!-- Fragment Gardening Page -->
+    <string name="gardening_service">Gardening Service</string>
+    <!-- Fragment Gardening Page -->
+
+
+    <!-- Fragment Health Page -->
+    <string name="health_at_home_service">Health at Home Service</string>
+    <string name="medical_test_at_home">Medical Test at Home</string>
+    <!-- Fragment Health Page -->
+
+
+    <!-- Fragment House repair Page -->
+    <string name="house_repair_services">House Repair Services</string>
+    <string name="plumbing_service">Plumbing Service</string>
+    <string name="metal_service">Metal Service</string>
+    <string name="motor_service">Motor Service</string>
+    <string name="electrical_service">Electrical Service</string>
+    <string name="generator_service">Generator Service</string>
+    <string name="chimney_service">Chimney Service</string>
+    <string name="inverter_batteries_amp_ups_service"><![CDATA[Inverter, Batteries & UPS Service]]></string>
+    <!-- Fragment House repair Page -->
+
+
+    <!-- Fragment Laundry Service Page -->
+    <string name="laundry_service">Laundry Service</string>
+    <!-- Fragment Laundry Service Page -->
+
+
+    <!-- Fragment Movers and Packers Service Page -->
+    <string name="movers_amp_packers_service"><![CDATA[Movers & Packers Service]]></string>
+    <!-- Fragment Movers and Packers Service Page -->
+
+
+    <!-- Fragment Home and Salon Service Page -->
+    <string name="home_salon_services">Home Salon Services</string>
+    <string name="salon_for_women">Salon for Women</string>
+    <string name="spa_for_women">Spa for Women</string>
+    <!-- Fragment Home and Salon Service Page -->
+
+
+    <!-- Fragment Vet for my pet Service Page -->
+    <string name="vet_for_my_pet_service">Vet for My Pet Service</string>
+    <string name="pet_care_service">Pet Care Service</string>
+    <!-- Fragment Vet for my pet Service Page -->
+
+
 </resources>

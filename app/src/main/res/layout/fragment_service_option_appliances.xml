@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-black"
-        android:text="Appliances Repair Services"
+        android:text="@string/appliances_repair_services"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,6 +25,7 @@
         android:layout_marginTop="20dp"
         android:orientation="horizontal"
         android:paddingStart="40dp"
+        android:paddingEnd="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView26">
@@ -44,16 +45,18 @@
                     android:id="@+id/imageView7"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/air" />
+                    app:srcCompat="@drawable/air"
+                    android:contentDescription="@string/a_c_repair_service" />
 
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="A/C Repair Service"
+                    android:text="@string/a_c_repair_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
+
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -72,14 +75,15 @@
                     android:id="@+id/imageView8"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/fridge" />
+                    app:srcCompat="@drawable/fridge"
+                    android:contentDescription="@string/fridge_service" />
 
                 <TextView
                     android:id="@+id/textView20"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Fridge Service"
+                    android:text="@string/fridge_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -100,14 +104,15 @@
                     android:id="@+id/imageView9"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/solarimage" />
+                    app:srcCompat="@drawable/solarimage"
+                    android:contentDescription="@string/solar_heater" />
 
                 <TextView
                     android:id="@+id/textView25"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Solar Heater "
+                    android:text="@string/solar_heater"
                     android:textSize="12sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -121,6 +126,7 @@
         android:layout_marginTop="20dp"
         android:orientation="horizontal"
         android:paddingStart="40dp"
+        android:paddingEnd="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout1">
@@ -141,14 +147,15 @@
                     android:id="@+id/imageView71"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/machine" />
+                    app:srcCompat="@drawable/machine"
+                    android:contentDescription="@string/washing_machine" />
 
                 <TextView
                     android:id="@+id/textView41"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Washing Machine"
+                    android:text="@string/washing_machine"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -170,14 +177,15 @@
                     android:id="@+id/imageView72"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/oven" />
+                    app:srcCompat="@drawable/oven"
+                    android:contentDescription="@string/oven_repair" />
 
                 <TextView
                     android:id="@+id/textView42"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Oven Repair"
+                    android:text="@string/oven_repair"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -199,14 +207,15 @@
                     android:id="@+id/imageView73"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/televison" />
+                    app:srcCompat="@drawable/televison"
+                    android:contentDescription="@string/t_v_repair_service" />
 
                 <TextView
                     android:id="@+id/textView43"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="T/V Repair Service"
+                    android:text="@string/t_v_repair_service"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -221,6 +230,7 @@
         android:layout_marginTop="20dp"
         android:orientation="horizontal"
         android:paddingStart="30dp"
+        android:paddingEnd="0dp"
         android:paddingBottom="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -241,14 +251,15 @@
                     android:id="@+id/imageView74"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/induction" />
+                    app:srcCompat="@drawable/induction"
+                    android:contentDescription="@string/induction_repair" />
 
                 <TextView
                     android:id="@+id/textView44"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Induction Repair"
+                    android:text="@string/induction_repair"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -272,14 +283,15 @@
                     android:id="@+id/imageView70"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/gas" />
+                    app:srcCompat="@drawable/gas"
+                    android:contentDescription="@string/gas_stove_repair" />
 
                 <TextView
                     android:id="@+id/textView40"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Gas Stove Repair"
+                    android:text="@string/gas_stove_repair"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -303,14 +315,15 @@
                     android:id="@+id/imageView781"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    app:srcCompat="@drawable/geyser" />
+                    app:srcCompat="@drawable/geyser"
+                    android:contentDescription="@string/geyser_repair" />
 
                 <TextView
                     android:id="@+id/textView481"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Geyser Repair"
+                    android:text="@string/geyser_repair"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 

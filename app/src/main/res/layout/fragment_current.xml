@@ -12,7 +12,7 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="No current booking available"
+        android:text="@string/no_current_booking_available"
         android:textColor="#BC00346A"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
