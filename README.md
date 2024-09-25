@@ -1,6 +1,6 @@
 Easy Fix It is an Android application developed to bridge the gap between homeowners and skilled handymen, revolutionizing the way household services are booked and managed in Kathmandu Valley. The app enables users to conveniently hire professionals for tasks like electrical repairs, plumbing, gardening, cleaning, and more, all from the comfort of their homes. This project not only benefits users by offering a wide range of services but also uplifts freelancers by expanding their reach beyond local markets. Built using Android Studio and integrated with Firebase for real-time database management and secure user authentication, the app ensures seamless communication between customers, admins, and handymen. Key features include OTP-based login, real-time booking updates, and efficient user-to-handyman assignment.
 
-# Images of the Application 
+## Images of the Application 
 
 ### Prompting User to add Phone Number
 
